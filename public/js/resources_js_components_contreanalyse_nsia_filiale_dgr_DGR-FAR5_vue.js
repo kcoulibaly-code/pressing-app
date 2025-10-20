@@ -1,0 +1,3608 @@
+"use strict";
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_components_contreanalyse_nsia_filiale_dgr_DGR-FAR5_vue"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=script&lang=js":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-feather-icons */ "./node_modules/vue-feather-icons/dist/vue-feather-icons.es.js");
+/* harmony import */ var _services_ebapis_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../services/ebapis.service */ "./resources/js/services/ebapis.service.js");
+/* harmony import */ var _services_auth_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../services/auth.service */ "./resources/js/services/auth.service.js");
+/* harmony import */ var _services_credit_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../services/credit.service */ "./resources/js/services/credit.service.js");
+/* harmony import */ var _helpers_helper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../helpers/helper */ "./resources/js/helpers/helper.js");
+/* harmony import */ var _vueform_multiselect_dist_multiselect_vue2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @vueform/multiselect/dist/multiselect.vue2 */ "./node_modules/@vueform/multiselect/dist/multiselect.vue2.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
+/* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return r; }; var t, r = {}, e = Object.prototype, n = e.hasOwnProperty, o = "function" == typeof Symbol ? Symbol : {}, i = o.iterator || "@@iterator", a = o.asyncIterator || "@@asyncIterator", u = o.toStringTag || "@@toStringTag"; function c(t, r, e, n) { Object.defineProperty(t, r, { value: e, enumerable: !n, configurable: !n, writable: !n }); } try { c({}, ""); } catch (t) { c = function c(t, r, e) { return t[r] = e; }; } function h(r, e, n, o) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype); return c(a, "_invoke", function (r, e, n) { var o = 1; return function (i, a) { if (3 === o) throw Error("Generator is already running"); if (4 === o) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var u = n.delegate; if (u) { var c = d(u, n); if (c) { if (c === f) continue; return c; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (1 === o) throw o = 4, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = 3; var h = s(r, e, n); if ("normal" === h.type) { if (o = n.done ? 4 : 2, h.arg === f) continue; return { value: h.arg, done: n.done }; } "throw" === h.type && (o = 4, n.method = "throw", n.arg = h.arg); } }; }(r, n, new Context(o || [])), !0), a; } function s(t, r, e) { try { return { type: "normal", arg: t.call(r, e) }; } catch (t) { return { type: "throw", arg: t }; } } r.wrap = h; var f = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var l = {}; c(l, i, function () { return this; }); var p = Object.getPrototypeOf, y = p && p(p(x([]))); y && y !== e && n.call(y, i) && (l = y); var v = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(l); function g(t) { ["next", "throw", "return"].forEach(function (r) { c(t, r, function (t) { return this._invoke(r, t); }); }); } function AsyncIterator(t, r) { function e(o, i, a, u) { var c = s(t[o], t, i); if ("throw" !== c.type) { var h = c.arg, f = h.value; return f && "object" == _typeof(f) && n.call(f, "__await") ? r.resolve(f.__await).then(function (t) { e("next", t, a, u); }, function (t) { e("throw", t, a, u); }) : r.resolve(f).then(function (t) { h.value = t, a(h); }, function (t) { return e("throw", t, a, u); }); } u(c.arg); } var o; c(this, "_invoke", function (t, n) { function i() { return new r(function (r, o) { e(t, n, r, o); }); } return o = o ? o.then(i, i) : i(); }, !0); } function d(r, e) { var n = e.method, o = r.i[n]; if (o === t) return e.delegate = null, "throw" === n && r.i["return"] && (e.method = "return", e.arg = t, d(r, e), "throw" === e.method) || "return" !== n && (e.method = "throw", e.arg = new TypeError("The iterator does not provide a '" + n + "' method")), f; var i = s(o, r.i, e.arg); if ("throw" === i.type) return e.method = "throw", e.arg = i.arg, e.delegate = null, f; var a = i.arg; return a ? a.done ? (e[r.r] = a.value, e.next = r.n, "return" !== e.method && (e.method = "next", e.arg = t), e.delegate = null, f) : a : (e.method = "throw", e.arg = new TypeError("iterator result is not an object"), e.delegate = null, f); } function w(t) { this.tryEntries.push(t); } function m(r) { var e = r[4] || {}; e.type = "normal", e.arg = t, r[4] = e; } function Context(t) { this.tryEntries = [[-1]], t.forEach(w, this), this.reset(!0); } function x(r) { if (null != r) { var e = r[i]; if (e) return e.call(r); if ("function" == typeof r.next) return r; if (!isNaN(r.length)) { var o = -1, a = function e() { for (; ++o < r.length;) if (n.call(r, o)) return e.value = r[o], e.done = !1, e; return e.value = t, e.done = !0, e; }; return a.next = a; } } throw new TypeError(_typeof(r) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, c(v, "constructor", GeneratorFunctionPrototype), c(GeneratorFunctionPrototype, "constructor", GeneratorFunction), c(GeneratorFunctionPrototype, u, GeneratorFunction.displayName = "GeneratorFunction"), r.isGeneratorFunction = function (t) { var r = "function" == typeof t && t.constructor; return !!r && (r === GeneratorFunction || "GeneratorFunction" === (r.displayName || r.name)); }, r.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, c(t, u, "GeneratorFunction")), t.prototype = Object.create(v), t; }, r.awrap = function (t) { return { __await: t }; }, g(AsyncIterator.prototype), c(AsyncIterator.prototype, a, function () { return this; }), r.AsyncIterator = AsyncIterator, r.async = function (t, e, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(h(t, e, n, o), i); return r.isGeneratorFunction(e) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, g(v), c(v, u, "Generator"), c(v, i, function () { return this; }), c(v, "toString", function () { return "[object Generator]"; }), r.keys = function (t) { var r = Object(t), e = []; for (var n in r) e.unshift(n); return function t() { for (; e.length;) if ((n = e.pop()) in r) return t.value = n, t.done = !1, t; return t.done = !0, t; }; }, r.values = x, Context.prototype = { constructor: Context, reset: function reset(r) { if (this.prev = this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(m), !r) for (var e in this) "t" === e.charAt(0) && n.call(this, e) && !isNaN(+e.slice(1)) && (this[e] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0][4]; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(r) { if (this.done) throw r; var e = this; function n(t) { a.type = "throw", a.arg = r, e.next = t; } for (var o = e.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i[4], u = this.prev, c = i[1], h = i[2]; if (-1 === i[0]) return n("end"), !1; if (!c && !h) throw Error("try statement without catch or finally"); if (null != i[0] && i[0] <= u) { if (u < c) return this.method = "next", this.arg = t, n(c), !0; if (u < h) return n(h), !1; } } }, abrupt: function abrupt(t, r) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var n = this.tryEntries[e]; if (n[0] > -1 && n[0] <= this.prev && this.prev < n[2]) { var o = n; break; } } o && ("break" === t || "continue" === t) && o[0] <= r && r <= o[2] && (o = null); var i = o ? o[4] : {}; return i.type = t, i.arg = r, o ? (this.method = "next", this.next = o[2], f) : this.complete(i); }, complete: function complete(t, r) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && r && (this.next = r), f; }, finish: function finish(t) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var e = this.tryEntries[r]; if (e[2] === t) return this.complete(e[4], e[3]), m(e), f; } }, "catch": function _catch(t) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var e = this.tryEntries[r]; if (e[0] === t) { var n = e[4]; if ("throw" === n.type) { var o = n.arg; m(e); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(r, e, n) { return this.delegate = { i: x(r), r: e, n: n }, "next" === this.method && (this.arg = t), f; } }, r; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+
+
+
+
+
+
+// import helper from "../../../helpers/helper";
+
+// ? IndexedDB helper for formDataToBeWatched Cache management
+// import IndexedDB from "../../../helpers/indexedDB";
+
+/**
+ * Cache Management variables
+ */
+var indexedDBName = "CREDITFLOW_TABLES";
+var collectionName = "TABLES";
+var documentName = "T";
+var documentId = null;
+var _cache,
+  _lastSaveTime = null,
+  _onlineSaveIntervalTimeInSeconds = 30;
+var _DEBUG = process.env.MIX_APP_DEBUG;
+var _cacheAutosaveInterval = null;
+var _timeSpentInSeconds = 0;
+// -- End Cache Management variables
+
+window.$ = window.jQuery = __webpack_require__(/*! jquery/dist/jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "respect-des-limites",
+  display: "Respect des limites",
+  components: {
+    MoreVerticalIcon: vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__.MoreVerticalIcon,
+    ChevronUpIcon: vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__.ChevronUpIcon,
+    ChevronDownIcon: vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__.ChevronDownIcon,
+    PlusIcon: vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__.PlusIcon,
+    TrashIcon: vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__.TrashIcon,
+    AirplayIcon: vue_feather_icons__WEBPACK_IMPORTED_MODULE_5__.AirplayIcon,
+    Multiselect: _vueform_multiselect_dist_multiselect_vue2__WEBPACK_IMPORTED_MODULE_4__["default"]
+    // BookOpenIcon,
+  },
+  computed: {
+    determineValueFP: function determineValueFP() {
+      var fond_propre = String(this.ratio_division[1].valeur).replace(/\s+/g, "");
+      var apr = String(this.ratio_division[0].valeur).replace(/\s+/g, "");
+      if (fond_propre == 0) return 0;
+      var tt = Number(apr) / Number(fond_propre);
+      return (Number(tt) * 100).toFixed(2);
+    }
+  },
+  props: {
+    meta_data: Object,
+    tb_name: String,
+    tb_display_name: String
+  },
+  created: function created() {
+    var _this = this;
+    // ? Setup cache listeners and stuff
+    // this.setupCache();
+    //
+    EventBus.$on("event-T0", function (data) {
+      // console.log("kkk", this.rtnExistant(data.formdata.experience_secteur))
+      _this.formDataToBeWatched.vivre = _this.rtnExistant(data.formdata.experience_secteur);
+    });
+  },
+  mounted: function mounted() {
+    var _this2 = this;
+    // Initiate cache
+
+    // // this.initCache();
+
+    this.loadRetrieved();
+    this.loadTbAttrs(); // charge les attributs + sous attributs des tables
+    this.tableClosedOrOpened();
+    // helper.loadCurrencyFormatter();
+    // AJOUTER
+    // EventBus.$emit("reload-DGRFAR4")
+
+    EventBus.$on("send-total_apr", function (data) {
+      _this2.ratio_division[0].valeur = data.total_apr;
+      // console.log("total apr -------------", this.ratio_division)
+      // this.loadBeforeRequest()
+    });
+  },
+  data: function data() {
+    var vm = this;
+    return {
+      ebapisHost: _services_ebapis_service__WEBPACK_IMPORTED_MODULE_0__["default"].host,
+      authcheck: false,
+      authcheckUsr: null,
+      authcheckStatus: null,
+      watchInPause: false,
+      initLoad: true,
+      previousMount: this.getPreviousYearAndCurrentMonth(),
+      seen: true,
+      seen1: true,
+      seen2: true,
+      seen3: true,
+      seen4: true,
+      seen5: true,
+      seen6: true,
+      seen7: true,
+      seen8: true,
+      seen9: true,
+      seenn1: true,
+      vseenn1: true,
+      disp: false,
+      situation_checked: false,
+      isLoading: false,
+      // customToolbar: [
+      //       ["bold", "italic", "underline"],
+      //       [{ list: "ordered" }, { list: "bullet" }],
+      //       // ["image", "code-block"]
+      //     ],
+      meta_parseable: {
+        cred_pub_key: this.meta_data["cred_pub_key"],
+        tb_name: this.tb_name
+      },
+      formDataToBeWatched: {
+        notes: [],
+        expositions_groupe: "",
+        total_exposition: "",
+        total_surete_fin: "",
+        total_garantie_hypo: "",
+        total_autre_garantie: "",
+        total_apr: "",
+        ratio_division: "",
+        autre_limite_ratio_test: "",
+        //
+        indicateur_secteurs: "",
+        apr_groupe: "",
+        ratio_div_risque: "",
+        // comments
+        comment_exposition_groupe: "",
+        comment_ratio_division: "",
+        comment_autre_limite_ratio: "",
+        apr_entite: 0
+      },
+      expositions_groupe: [{
+        client_groupe: "",
+        exposition: 0,
+        surete_fin: 0,
+        garantie_hypo: 0,
+        autre_garantie: 0,
+        apr: 0
+      }],
+      autre_limite_ratio_test: [{
+        grand_1: [{
+          title: "I. Limites internes (Appétence aux risques)",
+          s_title: false,
+          content: [{
+            limites: "Limite sectorielle/ Concentration sectorielle ",
+            secteur: "",
+            niveau_respecte: 0,
+            niveau_observe: 0,
+            situation_apres_mise_en_place: 0,
+            statut: "",
+            observation: ""
+          }]
+        }],
+        grand_2: [{
+          title: "II. Limites prudentielles",
+          s_title: [{
+            title: "A. Normes de solvabilité",
+            content: [{
+              limites: "Ratio de fonds propres CET 1 (%)",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Ratio de fonds propres de base T1 (%)",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Ratio de solvabilité total (%)",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }]
+          }, {
+            title: "B. Norme de division des risques",
+            content: [{
+              limites: "Norme de division des risques",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }]
+          }, {
+            title: "C. Ratio de levier",
+            content: [{
+              limites: "Ratio de levier",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }]
+          }, {
+            title: "D. Autres normes prudentielles",
+            content: [{
+              limites: "Limite individuelle sur les participations dans les entités commerciales ( 25% capital de l'entreprise)",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Limite individuelle sur les participations dans les entités commerciales (15% des fonds propres T1 de l'établissement)",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Limite globale de participations dans les entités commerciales (60% des fonds propres effectifs de l'établissement)",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Limite sur les immobilisations hors exploitation",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Limite sur le total des immobilisations et des participations",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }, {
+              limites: "Limite sur les prêts aux actionnaires , aux dirigeants et au personnel",
+              niveau_respecte: 0,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }]
+          }]
+        }]
+      }],
+      autre_limite_ratio: [{
+        id: 0,
+        limites: "I. Limites internes (Appétence aux risques)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 1,
+        limites: "Limite sectorielle/ Concentration sectorielle BTP",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 2,
+        limites: "II. Limites prudentielles",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 3,
+        limites: "A. Normes de solvabilité",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 4,
+        limites: "Ratio de fonds propres CET 1 (%)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 5,
+        limites: "Ratio de fonds propres de base T1 (%)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 6,
+        limites: "Ratio de solvabilité total (%)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 7,
+        limites: "B. Norme de division des risques",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 8,
+        limites: "Norme de division des risques",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 9,
+        limites: "C. Ratio de levier",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 10,
+        limites: "Ratio de levier",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 11,
+        limites: "D. Autres normes prudentielles",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 12,
+        limites: "Limite individuelle sur les participations dans les entités commerciales ( 25% capital de l'entreprise)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 13,
+        limites: "Limite individuelle sur les participations dans les entités commerciales (15% des fonds propres T1 de l'établissement)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 14,
+        limites: "Limite globale de participations dans les entités commerciales (60% des fonds propres effectifs de l'établissement)",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 15,
+        limites: "Limite sur le total des immobilisations et des participations",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }, {
+        id: 16,
+        limites: "Limite sur les prêts aux actionnaires , aux dirigeants et au personnel",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      }],
+      indicateur_secteurs: [],
+      ratio_division: [{
+        indicateur: "APR GROUPE ( en millions de FCFA)",
+        valeur: 0
+      }, {
+        indicateur: "Fonds Propres de Base T1 à Novembre 2022 ( en millions de FCFA)",
+        // indicateur:`Fonds Propres de Base T1 à ${vm.previousMount[0]} en millions de FCFA`,
+        // getPreviousYearAndCurrentMonth
+        valeur: 0
+      }, {
+        indicateur: " Ratio de division des risques relatif au groupe de clients liés ",
+        valeur: 0
+      }, {
+        indicateur: "Niveau à respecter ",
+        valeur: 0
+      }, {
+        indicateur: "Situation NSIA BANQUE",
+        valeur: 0
+      }
+      // {
+      //     indicateur:"APR ENTITE  ( en millions de FCFA)",
+      //     valeur:0,
+      // },
+      ],
+      potentialite_en_assurance: [{
+        label: "Refinancement BCEAO",
+        souscrite: "",
+        montant: 0,
+        delai_mise_disposition: ""
+      }, {
+        label: "Emprunt bancaire",
+        souscrite: "",
+        montant: 0,
+        delai_mise_disposition: ""
+      }, {
+        label: "Dépôts à vue",
+        souscrite: "",
+        montant: 0,
+        delai_mise_disposition: ""
+      }, {
+        label: "Dépôts à terme",
+        souscrite: "",
+        montant: 0,
+        delai_mise_disposition: ""
+      }, {
+        label: "Dépôts de garantie",
+        souscrite: "",
+        montant: 0,
+        delai_mise_disposition: ""
+      }, {
+        label: "Autres sommes dues",
+        souscrite: "",
+        montant: 0,
+        delai_mise_disposition: ""
+      }],
+      //
+      //
+      // Ajouter note
+      listingNote: false,
+      disponibilites_source_fin: [{
+        label: "Les ressources sont-elles disponibles ?",
+        souscrite: ""
+      }],
+      contextList: [{
+        title: "Commenter",
+        icon: "icofont icofont-comment",
+        handler: function () {
+          this.openNotesModal();
+        }.bind(vm),
+        disabled: false
+      }, {
+        title: "Assigner",
+        icon: "icofont icofont-check",
+        handler: function handler() {},
+        disabled: true
+      },
+      // {
+      //     title: "Rejeter",
+      //     icon: "icofont icofont-close",
+      //     handler: function () { },
+      //     disabled: true
+      // },
+      // {
+      //     title: "Vider",
+      //     icon: "icofont icofont-paperclip",
+      //     handler: function () { },
+      //     disabled: true
+      // },
+      {
+        title: "Supprimer",
+        icon: "icofont icofont-trash",
+        handler: this.startDeletingTbFromContext,
+        disabled: false
+      }]
+
+      // Critères d’éligibilité
+      /* criteres_d_eligibilite_contrepartie_choix: "",
+      criteres_d_eligibilite_contrepartie_commentaire: "",
+      criteres_d_eligibilite_engagement_choix: "",
+      criteres_d_eligibilite_engagement_commentaire: "",
+      criteres_d_eligibilite_credit_syndique_choix: "",
+      criteres_d_eligibilite_credit_syndique_commentaire: "",
+      criteres_d_eligibilite_eligible_choix: "",
+      criteres_d_eligibilite_eligible_commentaire: "", */
+    };
+  },
+  methods: {
+    // ? ** formDataToBeWatched Cache Management Functions
+    /**
+     * sets up formToBeWatched cache management related listeners and stuff
+     * ! to be executed in the *created* method
+     */
+    setupCache: function setupCache() {
+      if (_DEBUG) console.log(">> setupCache");
+
+      // ? Upload data to server before the page/tab/browser closes
+      // ! Only visibly works on page reload, for some reason
+      window.addEventListener("beforeunload", this.beforePageIsClosed);
+      // console.log("beforePageIsClosed subscribed");
+    },
+    /**
+     * adds an attribute to the formDataToBeWatched so that when it's deleted the pageunload callback doesn't refill it with empty values
+     */
+    updateFormDataForDeletion: function updateFormDataForDeletion() {
+      var _this3 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+        return _regeneratorRuntime().wrap(function _callee$(_context) {
+          while (1) switch (_context.prev = _context.next) {
+            case 0:
+              if (_DEBUG) console.log(">> updateFormDataForDeletion");
+              _this3.formDataToBeWatched.is_deleted = true;
+              // Actually delete from cache
+              _context.next = 4;
+              return _cache["delete"](documentId);
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }, _callee);
+      }))();
+    },
+    /**
+     * executes before the page/tab/browser is closed
+     * ! actually only works when the tab is refreshed
+     */
+    beforePageIsClosed: function beforePageIsClosed(event) {
+      var _this4 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+        return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+          while (1) switch (_context2.prev = _context2.next) {
+            case 0:
+              event.preventDefault();
+              event.returnValue = ""; // ! Won't work without this
+
+              if (_DEBUG) console.log(">> beforePageIsClosed");
+              // shows native popup
+              // ! Only works on page reloads
+
+              // Check if formDataToBeWatched is empty
+              if (!_this4.formDataToBeWatched.is_deleted) {
+                _context2.next = 5;
+                break;
+              }
+              return _context2.abrupt("return");
+            case 5:
+              // Upload current (and arguably latest) formDataToBeWatched data
+
+              _this4.uploadDataToServerAndUpdateLastSave(_this4.formDataToBeWatched, _this4.formDataToBeWatched);
+              if (_DEBUG) console.log("<< beforePageIsClosed");
+            case 7:
+            case "end":
+              return _context2.stop();
+          }
+        }, _callee2);
+      }))();
+    },
+    /**
+     * initialises the caches and throws exceptions/notifications when cache is not available
+     * @important uses the page param templateId to uniquely identify tables in the indexedDB
+     * @param  {void}
+     * @return {void}
+     */
+    initCache: function initCache() {
+      if (_DEBUG) console.log(">> initCache");
+      if (_cache) return;
+      // ! Check if this.tb_name exists, this variable only exists in table components so if it exists it means that a table component is currently active
+      if (!this.tb_name) return;
+      // ? Config for the indexedDB cache manager
+      documentName = this.tb_name;
+      var templateId = this.$route.params.templateId;
+      // ? This mixin is made for formDataToBeWatched in tables that have templateId
+      // If templateDoesn't exist exit
+      if (!templateId) return;
+      var name = indexedDBName + "-" + templateId;
+      var store = collectionName + "-" + templateId;
+      documentId = documentName + "-" + templateId;
+      //
+      try {
+        _cache = new IndexedDB({
+          name: name,
+          store: store
+        });
+        if (_DEBUG) console.log("<< initCache");
+      } catch (error) {
+        if (_DEBUG) console.error("xx initCache ", error);
+      }
+
+      // Start timer
+      clearInterval(_cacheAutosaveInterval);
+      if (_DEBUG) console.log(">> Set up timer");
+      _cacheAutosaveInterval = setInterval(this.uploadDataToServerEvery30Seconds, 1000);
+
+      // Delete formDataToBeWatched without having to upload before reload
+      if (_DEBUG) console.log(">> EventBus.$on tbDeleted");
+      EventBus.$on("tbDeleted", this.updateFormDataForDeletion);
+    },
+    /**
+     * saves form data in cache before sending form data to backend on ˜user idle˜ or in specified intervals
+     * @param  {Object} newVal updated form data
+     * @param  {Object} oldVal old form data
+     * @return {void}
+     */
+    saveDataInCache: function saveDataInCache(newVal, oldVal) {
+      var _this5 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
+        var data, timeSpentInSeconds;
+        return _regeneratorRuntime().wrap(function _callee3$(_context3) {
+          while (1) switch (_context3.prev = _context3.next) {
+            case 0:
+              if (_DEBUG) console.log(">> saveDataInCache");
+              // Check if cache exists
+              if (!_cache) {
+                if (_DEBUG) console.log(">< saveDataInCache no cache");
+                // this.initCache();
+              }
+              // * TODO
+              // [x] - Save data locally on strokes as cache in indexedDB
+              // [x] - Upload cached data when user is idle or on interval timeout
+              // [x] - Clear cache data from indexDB
+              // [x] - Rinse & Repeat
+              data = _objectSpread({
+                documentId: documentId
+              }, newVal); // Update or Insert newVal in Object store
+              _context3.next = 5;
+              return _cache.upsert(documentId, data);
+            case 5:
+              if (_lastSaveTime != null) {
+                // Last save time exists
+                timeSpentInSeconds = (Date.now() - _lastSaveTime) / 1000; // Upload data to serve, update last save and clear cache when interval timeout
+                if (timeSpentInSeconds >= _onlineSaveIntervalTimeInSeconds) {
+                  _this5.uploadDataToServerAndUpdateLastSave(newVal, oldVal);
+                }
+              }
+              // First upload
+              if (!_lastSaveTime) {
+                _this5.uploadDataToServerAndUpdateLastSave(newVal, oldVal);
+              }
+            case 7:
+            case "end":
+              return _context3.stop();
+          }
+        }, _callee3);
+      }))();
+    },
+    /**
+     * does exactly what the long ass name says lol
+     * @param  {Object} newVal updated form data
+     * @param  {Object} oldVal old form data
+     * @return {void}
+     */
+    uploadDataToServerAndUpdateLastSave: function uploadDataToServerAndUpdateLastSave(newVal, oldVal) {
+      var _this6 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
+        return _regeneratorRuntime().wrap(function _callee4$(_context4) {
+          while (1) switch (_context4.prev = _context4.next) {
+            case 0:
+              if (_DEBUG) console.log(">> uploadDataToServerAndUpdateLastSave");
+              _context4.prev = 1;
+              if (_DEBUG) console.log(">> this.autosaving");
+              _context4.next = 5;
+              return _this6.autosaving(newVal, oldVal);
+            case 5:
+              // Update last save time
+              _lastSaveTime = Date.now();
+              // ! DONOT Clear cache
+              // _cache.delete(documentId);
+              if (_DEBUG) console.log("<< uploadDataToServerAndUpdateLastSave");
+              _context4.next = 12;
+              break;
+            case 9:
+              _context4.prev = 9;
+              _context4.t0 = _context4["catch"](1);
+              // TODO add error
+              if (_DEBUG) console.error("xx uploadDataToServerAndUpdateLastSave", _context4.t0);
+            case 12:
+            case "end":
+              return _context4.stop();
+          }
+        }, _callee4, null, [[1, 9]]);
+      }))();
+    },
+    /**
+     * it displays a pop when the user is about to close the tab or browser
+     * then uploads formToBeWatched data to server to avoid losing data on unexpected page close
+     * @param  {Object} newVal updated form data
+     * @param  {Object} oldVal old form data
+     * @return {void}
+     */
+    uploadDataToServerBeforePageCloses: function uploadDataToServerBeforePageCloses() {
+      var _this7 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee5() {
+        return _regeneratorRuntime().wrap(function _callee5$(_context5) {
+          while (1) switch (_context5.prev = _context5.next) {
+            case 0:
+              if (_DEBUG) console.log(">> uploadDataToServerBeforePageCloses");
+              _context5.prev = 1;
+              _context5.next = 4;
+              return _this7.autosaving(newVal, oldVal);
+            case 4:
+              // Update last save time
+              _lastSaveTime = Date.now();
+              // Clear cache
+              _cache["delete"](documentId);
+              if (_DEBUG) console.log("<< uploadDataToServerBeforePageCloses");
+              _context5.next = 12;
+              break;
+            case 9:
+              _context5.prev = 9;
+              _context5.t0 = _context5["catch"](1);
+              // TODO add error
+              if (_DEBUG) console.error("xx uploadDataToServerBeforePageCloses", _context5.t0);
+            case 12:
+            case "end":
+              return _context5.stop();
+          }
+        }, _callee5, null, [[1, 9]]);
+      }))();
+    },
+    /**
+     * does exactly what the name says
+     * @return {void}
+     */
+    uploadDataToServerEvery30Seconds: function uploadDataToServerEvery30Seconds() {
+      var _this8 = this;
+      return _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee6() {
+        return _regeneratorRuntime().wrap(function _callee6$(_context6) {
+          while (1) switch (_context6.prev = _context6.next) {
+            case 0:
+              // if (_DEBUG) console.log(">> uploadDataToServerEvery30Seconds", _timeSpentInSeconds);
+              _timeSpentInSeconds++;
+              if (!(_timeSpentInSeconds % 30 != 0)) {
+                _context6.next = 3;
+                break;
+              }
+              return _context6.abrupt("return");
+            case 3:
+              if (_DEBUG) console.log(">> uploadDataToServerEvery30Seconds", _timeSpentInSeconds);
+              _context6.prev = 4;
+              if (_DEBUG) console.log(">> uploadDataToServerEvery30Seconds >> autosaving", _timeSpentInSeconds);
+              _context6.next = 8;
+              return _this8.autosaving(_this8.formDataToBeWatched, _this8.formDataToBeWatched);
+            case 8:
+              // Update last save time
+              _lastSaveTime = Date.now();
+              // Clear cache ?
+              // _cache.delete(documentId);
+              if (_DEBUG) console.log("<< uploadDataToServerEvery30Seconds << autosaving");
+              _context6.next = 15;
+              break;
+            case 12:
+              _context6.prev = 12;
+              _context6.t0 = _context6["catch"](4);
+              // TODO add error
+              if (_DEBUG) console.error("xx uploadDataToServerEvery30Seconds", _context6.t0);
+            case 15:
+            case "end":
+              return _context6.stop();
+          }
+        }, _callee6, null, [[4, 12]]);
+      }))();
+    },
+    // End Cache management functions
+    // ---------- Add by El ----------
+    disabledHead: function disabledHead(key) {
+      return false;
+    },
+    clearTr: function clearTr(keys) {
+      var table = document.getElementById('title');
+      // console.log("table ==> ",table)
+      var tbody = table.childNodes[2];
+      // console.log("tbody ==> ",tbody)
+      var nodes = tbody.childNodes;
+      // console.log("nodes ==> ",nodes)
+      var trNodes, color;
+      var newTr;
+      var newTd;
+      var textcontent;
+      keys.forEach(function (key) {
+        // console.log("nodes[key]", nodes[key])
+        tbody.removeChild(nodes[key]);
+        newTr = document.createElement('tr');
+        newTd = document.createElement('td');
+        newTd.setAttribute("colspan", "5");
+        if (key == 0) {
+          textcontent = "I. Limites internes (Appétence aux risques)";
+          color = "#f4f3f3";
+        }
+        if (key == 2) {
+          textcontent = "II. Limites prudentielles";
+          color = "#f4f3f3";
+        }
+        if (key == 3) {
+          textcontent = "A. Normes de solvabilité";
+          color = "#f4f3f3";
+        }
+        if (key == 7) {
+          textcontent = "B. Norme de division des risques";
+          color = "#f4f3f3";
+        }
+        if (key == 9) {
+          textcontent = "C. Ratio de levier";
+          color = "#f4f3f3";
+        }
+        if (key == 11) {
+          textcontent = "D. Autres normes prudentielles";
+          color = "#f4f3f3";
+        }
+        newTd.textContent = textcontent;
+        newTd.style.backgroundColor = color;
+        newTr.appendChild(newTd);
+        trNodes = nodes[key].childNodes;
+        var firstChild = tbody.firstChild;
+        tbody.insertBefore(newTr, nodes[key]);
+      });
+      console.log("nodes", nodes);
+
+      // console.log("nodes", nodes)
+      // nodes.forEach((node, key)=>{
+
+      //     if (key != 1 || key != 2 ) {
+      //         td = tr.childNodes[key]
+      //         console.log('childnoe', node)
+      //     }
+      // })
+      // keys.forEach(key=>{
+      //     td = tr.childNodes[key]
+      //     console.log("td", td)
+      //     input = td.firstChild
+      //     console.log("input", input)
+      //     // td.removeChild(input)
+      // })
+    },
+    // ------------- End Add---------------
+    checkSituation: function checkSituation() {
+      // this.formDataToBeWatched.
+    },
+    rtnExistant: function rtnExistant(data) {
+      var existance;
+      var experience = data;
+      // console.log("experience", experience);
+      if (experience <= 3) {
+        existance = "<3 ans";
+      } else {
+        if (experience <= 5) {
+          existance = ">3 ans";
+        } else {
+          if (experience <= 10) existance = ">5 ans";else existance = ">10 ans";
+        }
+      }
+      return existance;
+    },
+    setCoSignataireVars: function setCoSignataireVars(event, index) {
+      this.co_signataire[index][event[0]] = event[1];
+      this.handleInput();
+    },
+    tableClosedOrOpened: function tableClosedOrOpened() {
+      this.seen = this.fetchClosedTables(this.tb_name + this.meta_data["cred_pub_key"]);
+    },
+    openNotesModal: function openNotesModal() {
+      var listing = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+      this.listingNote = listing;
+      this.$modal.show(this.tb_name);
+    },
+    // AJOUTER
+    launchAutoSaver: function launchAutoSaver() {
+      var _this9 = this;
+      _services_auth_service__WEBPACK_IMPORTED_MODULE_1__["default"].loadUserData().then(function (res) {
+        _this9.send2Backend(res, 0, 0);
+      })["catch"](function (err) {
+        _this9.loadWithError(err);
+      });
+    },
+    SetPermanantEmp: function SetPermanantEmp(event, index) {
+      this.source_revenus[index][event[0]] = event[1];
+      // this.som = parseInt(this.source_revenus[index].Permanente?.toString().replace(/\s/g, ''))
+      // console.log(this.source_revenus[index].Permanente?.toString().replace(/\s/g, ''))
+      // this.formDataToBeWatched['total'] = parseInt(this.som)
+      this.formDataToBeWatched["total"] = this.totalMontant;
+      this.handleInput();
+    },
+    formDataVars: function formDataVars(event) {
+      this.formDataToBeWatched[event[0]] = event[1];
+    },
+    onChange: function onChange(e) {
+      if (e.target.value == "Non") {
+        this.disp = true;
+      } else {
+        this.disp = false;
+      }
+    },
+    loadAutreLimiteRatio: function loadAutreLimiteRatio(data) {
+      var autre_limite = data;
+      if ((autre_limite === null || autre_limite === void 0 ? void 0 : autre_limite.length) > 0) {
+        var _ref, _this$meta_data$dossi, _ref2, _this$meta_data$dossi3, _autre_limite$2, _autre_limite$3, _autre_limite$4, _autre_limite$5, _autre_limite$6, _autre_limite$7, _autre_limite$8, _autre_limite$9, _autre_limite$0, _autre_limite$1, _autre_limite$10, _autre_limite$11, _autre_limite$12, _autre_limite$13, _autre_limite$14, _autre_limite$15, _autre_limite$16, _autre_limite$17, _autre_limite$18, _autre_limite$19, _autre_limite$20, _autre_limite$21;
+        if (this.ratio_division[3] != undefined && autre_limite[3] != undefined) {
+          var _autre_limite$;
+          this.ratio_division[3].valeur = (_autre_limite$ = autre_limite[3]) === null || _autre_limite$ === void 0 ? void 0 : _autre_limite$.niveau_a_respecter;
+        }
+        var respect_des_criteres_d_appetence = [];
+        var concentration_sectorielle = {
+          secteur: "",
+          seuil: ""
+        };
+        if (!((_ref = ["", undefined]) !== null && _ref !== void 0 && _ref.includes((_this$meta_data$dossi = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi === void 0 || (_this$meta_data$dossi = _this$meta_data$dossi.cred_pub_tb_19004) === null || _this$meta_data$dossi === void 0 ? void 0 : _this$meta_data$dossi.respect_des_criteres_d_appetence))) {
+          var _this$meta_data$dossi2;
+          respect_des_criteres_d_appetence = (_this$meta_data$dossi2 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi2 === void 0 || (_this$meta_data$dossi2 = _this$meta_data$dossi2.cred_pub_tb_19004) === null || _this$meta_data$dossi2 === void 0 ? void 0 : _this$meta_data$dossi2.respect_des_criteres_d_appetence;
+        } else if (!((_ref2 = ["", undefined]) !== null && _ref2 !== void 0 && _ref2.includes((_this$meta_data$dossi3 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi3 === void 0 || (_this$meta_data$dossi3 = _this$meta_data$dossi3.cred_pub_tb_19) === null || _this$meta_data$dossi3 === void 0 ? void 0 : _this$meta_data$dossi3.respect_des_criteres_d_appetence))) {
+          var _this$meta_data$dossi4;
+          respect_des_criteres_d_appetence = (_this$meta_data$dossi4 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi4 === void 0 || (_this$meta_data$dossi4 = _this$meta_data$dossi4.cred_pub_tb_19) === null || _this$meta_data$dossi4 === void 0 ? void 0 : _this$meta_data$dossi4.respect_des_criteres_d_appetence;
+        }
+        respect_des_criteres_d_appetence.forEach(function (el) {
+          if (el.slug == 'concentration_sectorielle') {
+            concentration_sectorielle.secteur = el.indicateur_secteur;
+            concentration_sectorielle.seuil = el.seuil_d_alerte_dg;
+          }
+        });
+        this.autre_limite_ratio_test = [{
+          grand_1: [{
+            title: "I. Limites internes (Appétence aux risques)",
+            s_title: false,
+            content: [{
+              limites: "Limite sectorielle/ Concentration sectorielle ",
+              secteur: concentration_sectorielle.secteur,
+              niveau_respecte: concentration_sectorielle.seuil,
+              niveau_observe: 0,
+              situation_apres_mise_en_place: 0,
+              statut: "",
+              observation: ""
+            }]
+          }],
+          grand_2: [{
+            title: "II. Limites prudentielles",
+            s_title: [{
+              title: "A. Normes de solvabilité",
+              content: [{
+                limites: "Ratio de fonds propres CET 1 (%)",
+                niveau_respecte: (_autre_limite$2 = autre_limite[0]) === null || _autre_limite$2 === void 0 ? void 0 : _autre_limite$2.niveau_a_respecter,
+                niveau_observe: (_autre_limite$3 = autre_limite[0]) === null || _autre_limite$3 === void 0 ? void 0 : _autre_limite$3.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Ratio de fonds propres de base T1 (%)",
+                niveau_respecte: (_autre_limite$4 = autre_limite[1]) === null || _autre_limite$4 === void 0 ? void 0 : _autre_limite$4.niveau_a_respecter,
+                niveau_observe: (_autre_limite$5 = autre_limite[1]) === null || _autre_limite$5 === void 0 ? void 0 : _autre_limite$5.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Ratio de solvabilité total (%)",
+                niveau_respecte: (_autre_limite$6 = autre_limite[2]) === null || _autre_limite$6 === void 0 ? void 0 : _autre_limite$6.niveau_a_respecter,
+                niveau_observe: (_autre_limite$7 = autre_limite[2]) === null || _autre_limite$7 === void 0 ? void 0 : _autre_limite$7.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }]
+            }, {
+              title: "B. Norme de division des risques",
+              content: [{
+                limites: "Norme de division des risques",
+                niveau_respecte: (_autre_limite$8 = autre_limite[3]) === null || _autre_limite$8 === void 0 ? void 0 : _autre_limite$8.niveau_a_respecter,
+                niveau_observe: (_autre_limite$9 = autre_limite[3]) === null || _autre_limite$9 === void 0 ? void 0 : _autre_limite$9.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }]
+            }, {
+              title: "C. Ratio de levier",
+              content: [{
+                limites: "Ratio de levier",
+                niveau_respecte: (_autre_limite$0 = autre_limite[4]) === null || _autre_limite$0 === void 0 ? void 0 : _autre_limite$0.niveau_a_respecter,
+                niveau_observe: (_autre_limite$1 = autre_limite[4]) === null || _autre_limite$1 === void 0 ? void 0 : _autre_limite$1.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }]
+            }, {
+              title: "D. Autres normes prudentielles",
+              content: [{
+                limites: "Limite individuelle sur les participations dans les entités commerciales ( 25% capital de l'entreprise)",
+                niveau_respecte: (_autre_limite$10 = autre_limite[5]) === null || _autre_limite$10 === void 0 ? void 0 : _autre_limite$10.niveau_a_respecter,
+                niveau_observe: (_autre_limite$11 = autre_limite[5]) === null || _autre_limite$11 === void 0 ? void 0 : _autre_limite$11.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Limite individuelle sur les participations dans les entités commerciales (15% des fonds propres T1 de l'établissement)",
+                niveau_respecte: (_autre_limite$12 = autre_limite[6]) === null || _autre_limite$12 === void 0 ? void 0 : _autre_limite$12.niveau_a_respecter,
+                niveau_observe: (_autre_limite$13 = autre_limite[6]) === null || _autre_limite$13 === void 0 ? void 0 : _autre_limite$13.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Limite globale de participations dans les entités commerciales (60% des fonds propres effectifs de l'établissement)",
+                niveau_respecte: (_autre_limite$14 = autre_limite[7]) === null || _autre_limite$14 === void 0 ? void 0 : _autre_limite$14.niveau_a_respecter,
+                niveau_observe: (_autre_limite$15 = autre_limite[7]) === null || _autre_limite$15 === void 0 ? void 0 : _autre_limite$15.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Limite sur les immobilisations hors exploitation",
+                niveau_respecte: (_autre_limite$16 = autre_limite[8]) === null || _autre_limite$16 === void 0 ? void 0 : _autre_limite$16.niveau_a_respecter,
+                niveau_observe: (_autre_limite$17 = autre_limite[8]) === null || _autre_limite$17 === void 0 ? void 0 : _autre_limite$17.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Limite sur le total des immobilisations et des participations",
+                niveau_respecte: (_autre_limite$18 = autre_limite[9]) === null || _autre_limite$18 === void 0 ? void 0 : _autre_limite$18.niveau_a_respecter,
+                niveau_observe: (_autre_limite$19 = autre_limite[9]) === null || _autre_limite$19 === void 0 ? void 0 : _autre_limite$19.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }, {
+                limites: "Limite sur les prêts aux actionnaires , aux dirigeants et au personnel",
+                niveau_respecte: (_autre_limite$20 = autre_limite[10]) === null || _autre_limite$20 === void 0 ? void 0 : _autre_limite$20.niveau_a_respecter,
+                niveau_observe: (_autre_limite$21 = autre_limite[10]) === null || _autre_limite$21 === void 0 ? void 0 : _autre_limite$21.niveau_observe,
+                situation_apres_mise_en_place: 0,
+                statut: "",
+                observation: ""
+              }]
+            }]
+          }]
+        }];
+        this.handleInput();
+      }
+      // this.autre_limite_ratio_test
+    },
+    loadCritereAppetence: function loadCritereAppetence(data) {
+      this.indicateur_secteurs = data === null || data === void 0 ? void 0 : data.indicateur_secteurs;
+      // console.log("indicateur_secteurs => ", this.indicateur_secteurs)
+      this.handleInput();
+    },
+    loadRetrieved: function loadRetrieved() {
+      var _this$meta_data$dossi5,
+        _this0 = this,
+        _this$formDataToBeWat;
+      var lentb = this.meta_data["dossier_credit"]["tbs_in_use"];
+      var createdKey = this.tb_name;
+      var createdKeyArr = createdKey.split("tb");
+      createdKey = "cred_pub_tb_" + createdKeyArr[1];
+      // Close table by default
+      this.defaultRetract(false, (_this$meta_data$dossi5 = this.meta_data["dossier_credit"]) === null || _this$meta_data$dossi5 === void 0 ? void 0 : _this$meta_data$dossi5.applied_templ_id);
+      if (this.meta_data["dossier_credit"][createdKey] === undefined) {
+        var _ref3, _this$meta_data$dossi6;
+        _services_credit_service__WEBPACK_IMPORTED_MODULE_2__["default"].loadNsiaAutreLimiteRatio().then(function (res) {
+          // console.log("loadNsiaAutreLimiteRatio => ", res.data)
+          _this0.loadAutreLimiteRatio(res.data);
+        })["catch"](function (err) {
+          console.log(err);
+        });
+        if (!((_ref3 = ["", undefined]) !== null && _ref3 !== void 0 && _ref3.includes((_this$meta_data$dossi6 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi6 === void 0 || (_this$meta_data$dossi6 = _this$meta_data$dossi6.cred_pub_tb_19004) === null || _this$meta_data$dossi6 === void 0 ? void 0 : _this$meta_data$dossi6.indicateur_secteurs))) {
+          var _this$meta_data$dossi7, _this$meta_data$dossi8;
+          // respect_des_criteres_d_appetence
+
+          // console.log("Concentration sectorielle => ",this.meta_data['dossier_credit']?.cred_pub_tb_19004?.respect_des_criteres_d_appetence?.filter((el)=>{el?.label === "Concentration sectorielle"}))
+          this.autre_limite_ratio_test[0].grand_1[0].content[0].secteur = (_this$meta_data$dossi7 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi7 === void 0 || (_this$meta_data$dossi7 = _this$meta_data$dossi7.cred_pub_tb_19004) === null || _this$meta_data$dossi7 === void 0 ? void 0 : _this$meta_data$dossi7.respect_des_criteres_d_appetence[4].indicateur_secteur;
+          this.indicateur_secteurs = (_this$meta_data$dossi8 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi8 === void 0 || (_this$meta_data$dossi8 = _this$meta_data$dossi8.cred_pub_tb_19004) === null || _this$meta_data$dossi8 === void 0 ? void 0 : _this$meta_data$dossi8.indicateur_secteurs;
+          this.handleInput();
+          // this.isLoadData = false;
+        } else {
+          var _ref4, _this$meta_data$dossi9;
+          if (!((_ref4 = ["", undefined]) !== null && _ref4 !== void 0 && _ref4.includes((_this$meta_data$dossi9 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi9 === void 0 || (_this$meta_data$dossi9 = _this$meta_data$dossi9.cred_pub_tb_19) === null || _this$meta_data$dossi9 === void 0 ? void 0 : _this$meta_data$dossi9.indicateur_secteurs))) {
+            var _this$meta_data$dossi0, _this$meta_data$dossi1;
+            this.autre_limite_ratio_test[0].grand_1[0].content[0].secteur = (_this$meta_data$dossi0 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi0 === void 0 || (_this$meta_data$dossi0 = _this$meta_data$dossi0.cred_pub_tb_19) === null || _this$meta_data$dossi0 === void 0 ? void 0 : _this$meta_data$dossi0.respect_des_criteres_d_appetence[4].indicateur_secteur;
+            this.indicateur_secteurs = (_this$meta_data$dossi1 = this.meta_data['dossier_credit']) === null || _this$meta_data$dossi1 === void 0 || (_this$meta_data$dossi1 = _this$meta_data$dossi1.cred_pub_tb_19) === null || _this$meta_data$dossi1 === void 0 ? void 0 : _this$meta_data$dossi1.indicateur_secteurs;
+            this.handleInput();
+            // this.isLoadData = false;
+          } else {
+            var _this$indicateur_sect;
+            if ([[], undefined, null, 0].includes((_this$indicateur_sect = this.indicateur_secteurs) === null || _this$indicateur_sect === void 0 ? void 0 : _this$indicateur_sect.length)) {
+              _services_credit_service__WEBPACK_IMPORTED_MODULE_2__["default"].loadNsiaCritereAppetence().then(function (res) {
+                _this0.loadCritereAppetence(res.data);
+              })["catch"](function (err) {
+                console.log(err);
+              });
+            }
+          }
+        }
+      }
+      if (lentb.length > 0) {
+        if (this.meta_data["dossier_credit"][createdKey] != undefined) {
+          this.formDataToBeWatched = this.meta_data["dossier_credit"][createdKey];
+          if (this.meta_data["dossier_credit"][createdKey]["expositions_groupe"] != "") {
+            this.expositions_groupe = this.meta_data["dossier_credit"][createdKey]["expositions_groupe"];
+          }
+          if (this.meta_data["dossier_credit"][createdKey]["expositions_groupe"] != "") {
+            this.ratio_division = this.meta_data["dossier_credit"][createdKey]["ratio_division"];
+          }
+          if (this.meta_data["dossier_credit"][createdKey]["autre_limite_ratio_test"] != "") {
+            this.autre_limite_ratio_test = this.meta_data["dossier_credit"][createdKey]["autre_limite_ratio_test"];
+          }
+          if (this.meta_data["dossier_credit"][createdKey]["indicateur_secteurs"] != "") {
+            this.indicateur_secteurs = this.meta_data["dossier_credit"][createdKey]["indicateur_secteurs"];
+          }
+        }
+      }
+      if (['', null, undefined].includes((_this$formDataToBeWat = this.formDataToBeWatched) === null || _this$formDataToBeWat === void 0 ? void 0 : _this$formDataToBeWat.apr_entite)) {
+        this.$set(this.formDataToBeWatched, 'apr_entite', 0);
+      }
+    },
+    setTbVal: function setTbVal(val) {
+      this.cred_pub_key = val;
+    },
+    loadWithError: function loadWithError(err) {
+      //// window.location.href = "/login";
+    },
+    send2Backend: function send2Backend(res, newVal, oldVal) {
+      this.authcheck = true;
+      this.authcheckUsr = res.data;
+      this.authcheckStatus = res.status;
+      if (this.authcheckStatus === 401) {
+        // // window.location.href = "/login";
+      }
+      if (this.authcheck === true) {
+        // console.log(this.formDataToBeWatched)
+        this.$emit("autosaving");
+        this.$axios.post(this.ebapisHost + "creditbuilder/api/v1/autosaving/", {
+          user: this.authcheckUsr,
+          meta_parseable: this.meta_parseable,
+          filledData: this.formDataToBeWatched
+        }).then(function (response) {
+          this.$emit("autosaving");
+          // this.$Progress.finish();
+          // console.log(response);
+          var tbFetcheData = response.data;
+          if (tbFetcheData["is_success"] === true) {
+            this.$emit("load-shell");
+          }
+        }.bind(this))["catch"](function (error) {
+          this.$Progress.finish();
+          console.log(error);
+        }.bind(this));
+      } else {
+        alert("Unauthenticated");
+      }
+    },
+    onSlctMatCli: function onSlctMatCli(obj, key) {
+      this.entite_connectes[key]["raison_social_entite_connecte"] = obj.nomcli;
+      this.entite_connectes[key]["matricule_client_entite_connecte"] = obj.matclihan;
+      this.handleInput();
+    },
+    retract: function retract() {
+      this.seen = !this.seen;
+      var a = {
+        tb_name: this.tb_name + this.meta_data["cred_pub_key"],
+        status: this.seen
+      };
+      EventBus.$emit("savedclosed-table", a);
+    },
+    // add defaultRetract
+    defaultRetract: function defaultRetract(rc, ra) {
+      if (ra != null) {
+        this.seen = rc;
+        var a = {
+          tb_name: this.tb_name + this.meta_data["cred_pub_key"],
+          status: this.seen
+        };
+        EventBus.$emit("savedclosed-table", a);
+      }
+    },
+    retract1: function retract1() {
+      this.seen1 = !this.seen1;
+    },
+    addLimiteInterne: function addLimiteInterne() {
+      this.autre_limite_ratio_test[0].grand_1[0].content.push({
+        limites: "",
+        niveau_respecte: 0,
+        niveau_observe: 0,
+        situation_apres_mise_en_place: 0,
+        statut: "",
+        observation: ""
+      });
+    },
+    setTdCols: function setTdCols() {
+      var td = document.querySelector('#grand1 td');
+      var leng = this.autre_limite_ratio_test[0].grand_1[0].content.length.toString();
+      td.setAttribute("colspan", leng);
+    },
+    removeLimiteInterne: function removeLimiteInterne(index) {
+      this.autre_limite_ratio_test[0].grand_1[0].content.splice(index, 1);
+    },
+    addMore: function addMore() {
+      this.expositions_groupe.push({
+        client_groupe: "",
+        exposition: 0,
+        surete_fin: 0,
+        garantie_hypo: 0,
+        autre_garantie: 0,
+        apr: 0
+      });
+      (0,vue__WEBPACK_IMPORTED_MODULE_6__.nextTick)(function () {
+        window.$('.table-checklist-recommendation').find('tr:last td:first input').focus();
+      });
+    },
+    addMore3: function addMore3() {
+      this.entite_connectes.push({
+        matricule_client_entite_connecte: "",
+        raison_social_entite_connecte: "",
+        secteur_activite_entite_connecte: ""
+      });
+    },
+    remove3: function remove3(index) {
+      this.entite_connectes.splice(index, 1);
+    },
+    addMore2: function addMore2() {
+      this.ratio_division.push({
+        indicateur: "",
+        valeur: 0
+      });
+      (0,vue__WEBPACK_IMPORTED_MODULE_6__.nextTick)(function () {
+        window.$('.table-checklist-constat').find('tr:last td:first input').focus();
+      });
+    },
+    remove: function remove(index) {
+      this.expositions_groupe.splice(index, 1);
+    },
+    remove2: function remove2(index) {
+      this.ratio_division.splice(index, 1);
+      this.formDataToBeWatched["total_exposition "] = this.somX3(this.expositions_groupe, "exposition");
+      this.formDataToBeWatched["total_surete_fin"] = this.somX3(this.expositions_groupe, "surete_fin");
+      this.formDataToBeWatched["total_garantie_hypo"] = this.somX3(this.expositions_groupe, "garantie_hypo");
+      this.formDataToBeWatched["total_autre_garantie"] = this.somX3(this.expositions_groupe, "autre_garantie");
+      this.formDataToBeWatched["total_apr"] = this.somX3(this.expositions_groupe, "apr");
+      // this.formDataToBeWatched[
+      //     "total_exposition"
+      // ] = this.somX3(this.expositions_groupe, "exposition");
+      // this.formDataToBeWatched[
+      //     "total_" + removeList + "_valeur_considere"
+      // ] = this.somX3(this[removeList], "valeur_considere");
+    },
+    somX3: function somX3(ob, key) {
+      var som = 0;
+      ob.filter(function (elm) {
+        var _elm$key;
+        som += Number((_elm$key = elm[key]) === null || _elm$key === void 0 ? void 0 : _elm$key.toString().replace(/\s/g, ""));
+      });
+      return som;
+    },
+    somX4: function somX4(ob, keyA, keyB) {
+      var _ob$0$keyA, _ob$0$keyB;
+      var som = Number((_ob$0$keyA = ob[0][keyA]) === null || _ob$0$keyA === void 0 ? void 0 : _ob$0$keyA.toString().replace(/\s/g, "")) * Number((_ob$0$keyB = ob[0][keyB]) === null || _ob$0$keyB === void 0 ? void 0 : _ob$0$keyB.toString().replace(/\s/g, ""));
+      ob.filter(function (elm, index) {
+        if (index > 0) {
+          var _elm$keyA, _elm$keyB;
+          var result = Number((_elm$keyA = elm[keyA]) === null || _elm$keyA === void 0 ? void 0 : _elm$keyA.toString().replace(/\s/g, "")) * Number((_elm$keyB = elm[keyB]) === null || _elm$keyB === void 0 ? void 0 : _elm$keyB.toString().replace(/\s/g, ""));
+          som += result;
+        }
+      });
+      return som;
+    },
+    handleChangeSecteur: function handleChangeSecteur(secteur) {
+      var findObj = this.indicateur_secteurs.find(function (el) {
+        return el.indicateur === secteur.target.value;
+      });
+      if (findObj != undefined) {
+        var taux = this.convertInt(findObj.limite_dg) * 100;
+        this.autre_limite_ratio_test[0]['grand_1'][0]['content'][0]['niveau_respecte'] = taux.toFixed(2);
+        this.handleInput();
+      }
+    },
+    handleInputSituation: function handleInputSituation(el) {
+      var _el$limites, _el$limites2;
+      if (((_el$limites = el.limites) === null || _el$limites === void 0 ? void 0 : _el$limites.trim()) == "Limite sectorielle/ Concentration sectorielle") {
+        return;
+      }
+      var niveau_a_respecter = this.convertInt(el.niveau_respecte);
+      var situation_apres_mise_en_place = this.convertInt(el.situation_apres_mise_en_place);
+      if (["Norme de division des risques", "Limite individuelle sur les participations dans les entités commerciales ( 25% capital de l'entreprise)", "Limite individuelle sur les participations dans les entités commerciales (15% des fonds propres T1 de l'établissement)", "Limite globale de participations dans les entités commerciales (60% des fonds propres effectifs de l'établissement)", "Limite sur les immobilisations hors exploitation", "Limite sur le total des immobilisations et des participations", "Limite sur les prêts aux actionnaires , aux dirigeants et au personnel"].includes((_el$limites2 = el.limites) === null || _el$limites2 === void 0 ? void 0 : _el$limites2.trim())) {
+        if (niveau_a_respecter >= situation_apres_mise_en_place) {
+          el.statut = "Conforme";
+        } else {
+          el.statut = "Non conforme";
+        }
+      } else {
+        if (niveau_a_respecter <= situation_apres_mise_en_place) {
+          el.statut = "Conforme";
+        } else {
+          el.statut = "Non conforme";
+        }
+      }
+      this.handleInput();
+    },
+    handleInput: function handleInput(evt, index) {
+      this.ratio_division[2].valeur = this.determineValueFP;
+      this.formDataToBeWatched["expositions_groupe"] = this.expositions_groupe;
+      // this.formDataToBeWatched["ratio_division"] = this.ratio_division
+      this.formDataToBeWatched["autre_limite_ratio_test"] = this.autre_limite_ratio_test;
+      //
+
+      // if(this.ratio_division[2].valeur > this.ratio_division[3].valeur){
+      //     this.ratio_division[4].valeur = "Conforme"
+      // }
+
+      // if(this.ratio_division[2].valeur < this.ratio_division[3].valeur){
+      //     console.log("ratio_division",this.ratio_division[4].valeur)
+      //     this.ratio_division[4].valeur = "Non conforme"
+      // }
+
+      this.formDataToBeWatched["ratio_division"] = this.ratio_division;
+      // this.ratio_division[0].valeur = this.meta_data["dossier_credit"]?.["cred_pub_tb_28004"]?.["total_apr_cmt_cct"]
+      //         if(this.ratio_division[2].valeur > this.ratio_division[3].valeur){
+      //             this.ratio_division[4].valeur = "Conforme";
+      //             this.handleInput();
+      //         }
+      //         if(this.ratio_division[2].valeur < this.ratio_division[3].valeur){
+      //             this.ratio_division[4].valeur = "Non conforme";
+      //             this.handleInput();
+      //         }
+      // this.formDataToBeWatched["total_apr"]
+      this.formDataToBeWatched["indicateur_secteurs"] = this.indicateur_secteurs;
+      this.formDataToBeWatched.total_exposition = this.somX3(this.expositions_groupe, "exposition");
+      this.formDataToBeWatched.total_surete_fin = this.somX3(this.expositions_groupe, "surete_fin");
+      this.formDataToBeWatched.total_garantie_hypo = this.somX3(this.expositions_groupe, "garantie_hypo");
+      this.formDataToBeWatched.total_autre_garantie = this.somX3(this.expositions_groupe, "autre_garantie");
+      this.formDataToBeWatched.total_apr = this.somX3(this.expositions_groupe, "apr");
+
+      // if(this.form) situation_checked
+      // this.formDataToBeWatched["potentialite_en_assurance"] = this.potentialite_en_assuranc
+      // this.formDataToBeWatched["recommendations"] = this.recommendations
+      // this.formDataToBeWatched["constats"] = this.constats
+
+      this.ratio_division[0].valeur = this.formDataToBeWatched.total_apr;
+      if (this.ratio_division[2].valeur > this.ratio_division[3].valeur) {
+        this.ratio_division[4].valeur = "Non conforme";
+      }
+      if (this.ratio_division[2].valeur < this.ratio_division[3].valeur) {
+        this.ratio_division[4].valeur = "Conforme";
+      }
+      this.formDataToBeWatched["ratio_division"] = this.ratio_division;
+    },
+    loadTbAttrs: function loadTbAttrs() {
+      var l = [];
+      var topdivel = this.$refs.topdiv;
+      var k = document.querySelectorAll(".subdiv" + this.tb_name);
+      // console.log(k)
+      k.forEach(function (e) {
+        l.push(e.innerText);
+        // console.log(l)
+      });
+      var p = {
+        name_of_title: topdivel.innerText,
+        list_of_content: l,
+        id: "f5-head"
+      };
+      // console.log(p)
+      this.$emit("load-buffer", p);
+    }
+  },
+  watch: {
+    formDataToBeWatched: {
+      handler: function handler(newVal, oldVal) {
+        // if (oldVal === undefined) {
+        //   return
+        // }
+        this.autosaving(newVal, oldVal);
+        // ? Cache management
+        // this.saveDataInCache(newVal, oldVal);
+      },
+      deep: true,
+      immediate: true
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function render() {
+  var _vm$formDataToBeWatch, _vm$formDataToBeWatch2;
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("div", {
+    on: {
+      contextmenu: function contextmenu($event) {
+        return _vm.$refs.menu.open($event, _vm.tb_name);
+      }
+    }
+  }, [_vm.isLoading ? _c("loader") : _vm._e(), _vm._v(" "), _c("div", {
+    staticClass: "row bg-light card-width-height",
+    staticStyle: {
+      width: "100%",
+      height: "100%"
+    }
+  }, [_c("ContextMenu", {
+    ref: "menu",
+    attrs: {
+      id: _vm.tb_name,
+      cred_pub_key: _vm.meta_parseable.cred_pub_key,
+      tb_name: _vm.tb_name,
+      contextList: _vm.contextList
+    }
+  }), _vm._v(" "), _vm.seen === true ? _c("div", {
+    staticClass: "card",
+    staticStyle: {
+      width: "100%",
+      height: "100%"
+    }
+  }, [_c("br"), _vm._v(" "), _c("div", {
+    staticClass: "card-header hdc pb-0 pt-2"
+  }, [_c("h6", {
+    ref: "topdiv",
+    staticClass: "head",
+    attrs: {
+      id: "f5-head"
+    }
+  }, [_c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col"
+  }, [_vm._v("\n                            " + _vm._s(_vm.tb_display_name) + " : Respect des limites\n                        ")]), _vm._v(" "), _c("div", {
+    staticClass: "col-auto"
+  }, [((_vm$formDataToBeWatch = _vm.formDataToBeWatched.notes) === null || _vm$formDataToBeWatch === void 0 ? void 0 : _vm$formDataToBeWatch.length) > 0 ? _c("div", {
+    staticStyle: {
+      display: "inline-block",
+      position: "relative"
+    }
+  }, [_c("span", {
+    attrs: {
+      type: "button"
+    },
+    on: {
+      click: function click($event) {
+        return _vm.openNotesModal(true);
+      }
+    }
+  }, [_c("i", {
+    staticClass: "icofont icofont-comment text-white px-2",
+    staticStyle: {
+      "font-size": "12px"
+    },
+    attrs: {
+      role: "button"
+    }
+  }), _vm._v(" "), _c("span", {
+    staticClass: "badge-sm"
+  }, [_c("span", [_vm._v("\n                                            " + _vm._s(_vm.formDataToBeWatched.notes.length) + "\n                                        ")])])])]) : _vm._e(), _vm._v(" "), _c("chevron-up-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    },
+    on: {
+      click: function click($event) {
+        return _vm.retract();
+      }
+    }
+  })], 1)])])]), _vm._v(" "), _c("div", {
+    staticClass: "row p-0"
+  }, [_c("div", {
+    staticClass: "col-12 p-0 position-relative"
+  }, [_vm.seen5 ? _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "relook-header",
+    on: {
+      click: function click($event) {
+        _vm.seen5 = !_vm.seen5;
+      }
+    }
+  }, [_c("h6", {
+    "class": " subdiv" + this.tb_name,
+    attrs: {
+      id: "expositions-sur-le-groupe-lies"
+    }
+  }, [_vm._v("\n                                Expositions sur le groupe de clients liés ( en millions de FCFA)\n                                "), _c("chevron-up-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      "float": "right",
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    }
+  })], 1)]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "table-responsive"
+  }, [_c("table", {
+    staticClass: "table table-bordered table-checklist-recommendation"
+  }, [_vm._m(0), _vm._v(" "), _c("tbody", [_vm._l(_vm.expositions_groupe, function (element, index) {
+    return _c("tr", {
+      key: index
+    }, [_c("td", {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [_c("input", {
+      directives: [{
+        name: "model",
+        rawName: "v-model.lazy",
+        value: element.client_groupe,
+        expression: "\n                                                        element.client_groupe\n                                                    ",
+        modifiers: {
+          lazy: true
+        }
+      }],
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "200px"
+      },
+      attrs: {
+        type: "text"
+      },
+      domProps: {
+        value: element.client_groupe
+      },
+      on: {
+        change: [function ($event) {
+          return _vm.$set(element, "client_groupe", $event.target.value);
+        }, _vm.handleInput]
+      }
+    })]), _vm._v(" "), _c("td", [_c("currency-input", {
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.exposition,
+        callback: function callback($$v) {
+          _vm.$set(element, "exposition", $$v);
+        },
+        expression: "\n                                                   element.exposition\n                                                "
+      }
+    })], 1), _vm._v(" "), _c("td", {
+      staticClass: "text-center"
+    }, [_c("currency-input", {
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.surete_fin,
+        callback: function callback($$v) {
+          _vm.$set(element, "surete_fin", $$v);
+        },
+        expression: "\n                                                   element.surete_fin\n                                                "
+      }
+    })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.garantie_hypo,
+        callback: function callback($$v) {
+          _vm.$set(element, "garantie_hypo", $$v);
+        },
+        expression: "\n                                                   element.garantie_hypo\n                                                "
+      }
+    })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.autre_garantie,
+        callback: function callback($$v) {
+          _vm.$set(element, "autre_garantie", $$v);
+        },
+        expression: "\n                                                   element.autre_garantie\n                                                "
+      }
+    })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.apr,
+        callback: function callback($$v) {
+          _vm.$set(element, "apr", $$v);
+        },
+        expression: "\n                                                   element.apr\n                                                "
+      }
+    })], 1), _vm._v(" "), index == 0 ? _c("td", [_c("button", {
+      directives: [{
+        name: "show",
+        rawName: "v-show",
+        value: index == 0,
+        expression: "index == 0"
+      }],
+      staticStyle: {
+        "background-color": "#2c3e50",
+        color: "#ffffff",
+        "border-radius": "15%",
+        border: "none",
+        "font-size": "16px"
+      },
+      attrs: {
+        type: "button",
+        title: "Ajouter un bien"
+      },
+      on: {
+        click: function click($event) {
+          return _vm.addMore("recommendations");
+        }
+      }
+    }, [_c("plus-icon", {
+      staticClass: "custom-class",
+      attrs: {
+        size: "21"
+      }
+    })], 1)]) : _c("td", [_c("button", {
+      directives: [{
+        name: "show",
+        rawName: "v-show",
+        value: index != 0,
+        expression: "index != 0"
+      }],
+      staticStyle: {
+        "background-color": "transparent",
+        border: "none"
+      },
+      attrs: {
+        type: "button",
+        title: "Supprimer"
+      },
+      on: {
+        click: function click($event) {
+          return _vm.remove(index);
+        }
+      }
+    }, [_c("trash-icon", {
+      staticClass: "custom-class",
+      attrs: {
+        size: "21"
+      }
+    })], 1)])]);
+  }), _vm._v(" "), _c("tr", [_vm._m(1), _vm._v(" "), _c("td", {
+    staticStyle: {
+      "min-width": "150px"
+    }
+  }, [_c("currency-input", {
+    staticStyle: {
+      "min-width": "150px"
+    },
+    attrs: {
+      readonly: "",
+      "default-typing": false
+    },
+    on: {
+      change: _vm.handleInput
+    },
+    model: {
+      value: _vm.formDataToBeWatched.total_exposition,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "total_exposition", $$v);
+      },
+      expression: "\n                                                    formDataToBeWatched.total_exposition\n                                                "
+    }
+  })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+    staticStyle: {
+      "min-width": "150px"
+    },
+    attrs: {
+      readonly: "",
+      "default-typing": false
+    },
+    on: {
+      change: _vm.handleInput
+    },
+    model: {
+      value: _vm.formDataToBeWatched.total_surete_fin,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "total_surete_fin", $$v);
+      },
+      expression: "\n                                                    formDataToBeWatched.total_surete_fin\n                                                "
+    }
+  })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+    staticStyle: {
+      "min-width": "150px"
+    },
+    attrs: {
+      readonly: "",
+      "default-typing": false
+    },
+    on: {
+      change: _vm.handleInput
+    },
+    model: {
+      value: _vm.formDataToBeWatched.total_garantie_hypo,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "total_garantie_hypo", $$v);
+      },
+      expression: "\n                                                    formDataToBeWatched.total_garantie_hypo\n                                                "
+    }
+  })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+    staticStyle: {
+      "min-width": "150px"
+    },
+    attrs: {
+      readonly: "",
+      "default-typing": false
+    },
+    on: {
+      change: _vm.handleInput
+    },
+    model: {
+      value: _vm.formDataToBeWatched.total_autre_garantie,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "total_autre_garantie", $$v);
+      },
+      expression: "\n                                                    formDataToBeWatched.total_autre_garantie\n                                                "
+    }
+  })], 1), _vm._v(" "), _c("td", [_c("currency-input", {
+    staticStyle: {
+      "min-width": "150px"
+    },
+    attrs: {
+      readonly: "",
+      "default-typing": false
+    },
+    on: {
+      change: _vm.handleInput
+    },
+    model: {
+      value: _vm.formDataToBeWatched.total_apr,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "total_apr", $$v);
+      },
+      expression: "\n                                                    formDataToBeWatched.total_apr\n                                                "
+    }
+  })], 1), _vm._v(" "), _c("td")])], 2)])])])]) : _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "relook-header",
+    on: {
+      click: function click($event) {
+        _vm.seen5 = !_vm.seen5;
+      }
+    }
+  }, [_c("h6", {
+    attrs: {
+      id: "expositions-sur-le-groupe-lies"
+    }
+  }, [_vm._v("\n                                Expositions sur le groupe de clients liés ( en millions de FCFA)\n                                "), _c("chevron-down-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      "float": "right",
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    }
+  })], 1)])]), _vm._v(" "), _c("br"), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "col-md-12 mb-4"
+  }, [_vm._m(2), _vm._v(" "), _c("vue-editor", {
+    attrs: {
+      maximum: 1000,
+      id: "type_res_dispo"
+    },
+    on: {
+      "update-value": function updateValue($event) {
+        _vm.formDataToBeWatched[$event[0]] = $event[1];
+      }
+    },
+    model: {
+      value: _vm.formDataToBeWatched.comment_exposition_groupe,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "comment_exposition_groupe", $$v);
+      },
+      expression: "formDataToBeWatched.comment_exposition_groupe"
+    }
+  })], 1)]), _vm._v(" "), _c("br"), _vm._v(" "), _vm.seen2 ? _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "relook-header",
+    on: {
+      click: function click($event) {
+        _vm.seen2 = !_vm.seen2;
+      }
+    }
+  }, [_c("h6", {
+    "class": " subdiv" + this.tb_name,
+    attrs: {
+      id: "ratio-de-division-des-risques-relatif-au-groupe-de-clients-liés"
+    }
+  }, [_vm._v("\n                                Ratio de division des risques relatif au groupe de clients liés\n                                "), _c("chevron-up-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      "float": "right",
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    }
+  })], 1)]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "table-responsive"
+  }, [_c("table", {
+    staticClass: "table table-bordered table-checklist-constat"
+  }, [_vm._m(3), _vm._v(" "), _c("tbody", [_c("tr", {
+    key: "index0"
+  }, [_c("td", {
+    staticClass: "text-nowrap"
+  }, [_vm._v("APR ENTITE ( en millions de FCFA)")]), _vm._v(" "), _c("td", [_c("currency-input", {
+    staticClass: "form-control text-end",
+    staticStyle: {
+      "min-width": "150px"
+    },
+    attrs: {
+      "default-typing": false,
+      type: "text"
+    },
+    on: {
+      change: _vm.handleInput
+    },
+    model: {
+      value: _vm.formDataToBeWatched.apr_entite,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "apr_entite", $$v);
+      },
+      expression: "formDataToBeWatched.apr_entite"
+    }
+  })], 1), _vm._v(" "), _c("td")]), _vm._v(" "), _vm._l(_vm.ratio_division, function (element, index) {
+    return _c("tr", {
+      key: index
+    }, [index > 5 ? _c("td", {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [_c("input", {
+      directives: [{
+        name: "model",
+        rawName: "v-model.lazy",
+        value: element.indicateur,
+        expression: "\n                                                        element.indicateur\n                                                    ",
+        modifiers: {
+          lazy: true
+        }
+      }],
+      staticClass: "form-control text-end",
+      attrs: {
+        type: "text"
+      },
+      domProps: {
+        value: element.indicateur
+      },
+      on: {
+        change: [function ($event) {
+          return _vm.$set(element, "indicateur", $event.target.value);
+        }, _vm.handleInput]
+      }
+    })]) : index == 1 ? _c("td", [_vm._v("Fonds Propres de Base T1 (en millions de FCFA)")]) : _c("td", {
+      staticClass: "text-nowrap"
+    }, [_vm._v(_vm._s(element.indicateur))]), _vm._v(" "), index == 2 ? _c("td", [_c("currency-input", {
+      staticClass: "text-end",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        readonly: "",
+        "default-typing": false
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.valeur,
+        callback: function callback($$v) {
+          _vm.$set(element, "valeur", $$v);
+        },
+        expression: "\n                                                    element.valeur\n                                                "
+      }
+    })], 1) : _vm._e(), _vm._v(" "), index == 1 || index == 0 || index == 5 ? _c("td", [_c("currency-input", {
+      staticClass: "form-control text-end",
+      "class": {
+        equipe: index == 0 || index == 5
+      },
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.valeur,
+        callback: function callback($$v) {
+          _vm.$set(element, "valeur", $$v);
+        },
+        expression: "\n                                                   element.valeur\n                                                "
+      }
+    })], 1) : _vm._e(), _vm._v(" "), index == 4 ? _c("td", [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.valeur,
+        expression: "element.valeur"
+      }],
+      staticClass: "form-select",
+      attrs: {
+        required: ""
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "valeur", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Conforme",
+        disabled: "",
+        selected: "",
+        readonly: ""
+      }
+    }, [_vm._v(" Conforme ")]), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Non conforme",
+        disabled: "",
+        selected: "",
+        readonly: ""
+      }
+    }, [_vm._v(" Non conforme ")])])]) : _vm._e(), _vm._v(" "), index == 3 ? _c("td", [_c("div", {
+      staticStyle: {
+        "min-width": "115px"
+      }
+    }, [_c("input-group", {
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end equipe",
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.valeur,
+              callback: function callback($$v) {
+                _vm.$set(element, "valeur", $$v);
+              },
+              expression: "element.valeur"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]) : _vm._e(), _vm._v(" "), index > 5 ? _c("td", [_c("currency-input", {
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "150px"
+      },
+      attrs: {
+        "default-typing": false,
+        type: "text"
+      },
+      on: {
+        change: _vm.handleInput
+      },
+      model: {
+        value: element.valeur,
+        callback: function callback($$v) {
+          _vm.$set(element, "valeur", $$v);
+        },
+        expression: "\n                                                   element.valeur\n                                                "
+      }
+    })], 1) : _vm._e(), _vm._v(" "), index == 0 || index == 5 ? _c("td", [_c("button", {
+      directives: [{
+        name: "show",
+        rawName: "v-show",
+        value: index == 0 || index == 5,
+        expression: "index == 0 || index == 5"
+      }],
+      staticStyle: {
+        "background-color": "#2c3e50",
+        color: "#ffffff",
+        "border-radius": "15%",
+        border: "none",
+        "font-size": "16px"
+      },
+      attrs: {
+        type: "button",
+        title: "Ajouter un bien"
+      },
+      on: {
+        click: function click($event) {
+          return _vm.addMore2("ratio_division");
+        }
+      }
+    }, [_c("plus-icon", {
+      staticClass: "custom-class",
+      attrs: {
+        size: "21"
+      }
+    })], 1)]) : _c("td", [_c("button", {
+      directives: [{
+        name: "show",
+        rawName: "v-show",
+        value: index > 4,
+        expression: "index > 4"
+      }],
+      staticStyle: {
+        "background-color": "transparent",
+        border: "none"
+      },
+      attrs: {
+        type: "button",
+        title: "Supprimer"
+      },
+      on: {
+        click: function click($event) {
+          return _vm.remove2(index);
+        }
+      }
+    }, [_c("trash-icon", {
+      staticClass: "custom-class",
+      attrs: {
+        size: "21"
+      }
+    })], 1)])]);
+  })], 2)])])])]) : _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "relook-header",
+    on: {
+      click: function click($event) {
+        _vm.seen2 = !_vm.seen2;
+      }
+    }
+  }, [_c("h6", {
+    attrs: {
+      id: "ratio-de-division-des-risques-relatif-au-groupe-de-clients-liés"
+    }
+  }, [_vm._v("\n                                Ratio de division des risques relatif au groupe de clients liés\n                                "), _c("chevron-down-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      "float": "right",
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    }
+  })], 1)])]), _vm._v(" "), _c("br"), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "col-md-12 mb-4"
+  }, [_vm._m(4), _vm._v(" "), _c("vue-editor", {
+    attrs: {
+      maximum: 1000,
+      id: "type_res_dispo"
+    },
+    on: {
+      "update-value": function updateValue($event) {
+        _vm.formDataToBeWatched[$event[0]] = $event[1];
+      }
+    },
+    model: {
+      value: _vm.formDataToBeWatched.comment_ratio_division,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "comment_ratio_division", $$v);
+      },
+      expression: "formDataToBeWatched.comment_ratio_division"
+    }
+  })], 1)]), _vm._v(" "), _c("br"), _vm._v(" "), _vm.seen3 ? _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "relook-header",
+    on: {
+      click: function click($event) {
+        _vm.seen3 = !_vm.seen3;
+      }
+    }
+  }, [_c("h6", {
+    "class": " subdiv" + this.tb_name,
+    attrs: {
+      id: "autres-limites-et-ratios"
+    }
+  }, [_vm._v("\n                                Autres limites et ratios\n                                "), _c("chevron-up-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      "float": "right",
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    }
+  })], 1)]), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "table-responsive",
+    staticStyle: {
+      height: "350px"
+    }
+  }, [_c("table", {
+    staticClass: "table table-bordered table-checklist-constat",
+    attrs: {
+      id: "title"
+    }
+  }, [_vm._m(5), _vm._v(" "), _c("tbody", [_c("tr", {
+    attrs: {
+      id: "grand1"
+    }
+  }, [_c("td", {
+    attrs: {
+      colspan: "7"
+    }
+  }, [_c("b", [_vm._v(_vm._s(_vm.autre_limite_ratio_test[0].grand_1[0].title))])])]), _vm._v(" "), _vm._l(_vm.autre_limite_ratio_test[0].grand_1[0].content, function (element, index) {
+    return _c("tr", {
+      key: index
+    }, [index == 0 ? _c("td", {
+      staticStyle: {
+        display: "inline-block",
+        "min-width": "178px"
+      }
+    }, [_c("span", {
+      staticStyle: {
+        "min-width": "220px"
+      }
+    }, [_c("b", [_vm._v(_vm._s(element.limites))])]), _vm._v(" "), _c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.secteur,
+        expression: "element.secteur"
+      }],
+      staticClass: "form-select single-select",
+      staticStyle: {
+        "min-width": "115px"
+      },
+      attrs: {
+        type: "text"
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "secteur", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleChangeSecteur]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _vm._l(_vm.indicateur_secteurs, function (el, ind) {
+      return _c("option", {
+        key: "ind" + ind,
+        domProps: {
+          value: el.indicateur
+        }
+      }, [_vm._v(_vm._s(el.indicateur))]);
+    })], 2)]) : _c("td", {
+      staticStyle: {
+        display: "inline-block",
+        "min-width": "178px"
+      }
+    }, [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.limites,
+        expression: "element.limites"
+      }],
+      staticClass: "form-select single-select",
+      staticStyle: {
+        "min-width": "115px"
+      },
+      attrs: {
+        type: "text"
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "limites", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _vm._l(_vm.indicateur_secteurs, function (el, ind) {
+      return _c("option", {
+        key: "ind" + ind,
+        domProps: {
+          value: el.indicateur
+        }
+      }, [_vm._v(_vm._s(el.indicateur))]);
+    })], 2)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_respecte,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_respecte", $$v);
+              },
+              expression: "\n                                                            element.niveau_respecte"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_observe,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_observe", $$v);
+              },
+              expression: "element.niveau_observe"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: function change($event) {
+                return _vm.handleInputSituation(element);
+              }
+            },
+            model: {
+              value: element.situation_apres_mise_en_place,
+              callback: function callback($$v) {
+                _vm.$set(element, "situation_apres_mise_en_place", $$v);
+              },
+              expression: "\n                                                            element.situation_apres_mise_en_place"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.statut,
+        expression: "element.statut"
+      }],
+      staticClass: "form-select single-select",
+      attrs: {
+        required: ""
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "statut", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Conforme"
+      }
+    }, [_vm._v(" Conforme ")]), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Non conforme"
+      }
+    }, [_vm._v(" Non conforme ")])])]), _vm._v(" "), _c("td", [_c("textarea", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.observation,
+        expression: "\n                                                        element.observation"
+      }],
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "210px"
+      },
+      attrs: {
+        id: "exampleFormControlTextarea1",
+        rows: "1"
+      },
+      domProps: {
+        value: element.observation
+      },
+      on: {
+        change: _vm.handleInput,
+        input: function input($event) {
+          if ($event.target.composing) return;
+          _vm.$set(element, "observation", $event.target.value);
+        }
+      }
+    })]), _vm._v(" "), index == 0 ? _c("td", [_c("button", {
+      directives: [{
+        name: "show",
+        rawName: "v-show",
+        value: index == 0,
+        expression: "index == 0"
+      }],
+      staticStyle: {
+        "background-color": "#2c3e50",
+        color: "#ffffff",
+        "border-radius": "15%",
+        border: "none",
+        "font-size": "16px"
+      },
+      attrs: {
+        type: "button",
+        title: "Ajouter un bien"
+      },
+      on: {
+        click: function click($event) {
+          return _vm.addLimiteInterne("constats");
+        }
+      }
+    }, [_c("plus-icon", {
+      staticClass: "custom-class",
+      attrs: {
+        size: "21"
+      }
+    })], 1)]) : _c("td", [_c("button", {
+      directives: [{
+        name: "show",
+        rawName: "v-show",
+        value: index > 0,
+        expression: "index > 0"
+      }],
+      staticStyle: {
+        "background-color": "transparent",
+        border: "none"
+      },
+      attrs: {
+        type: "button",
+        title: "Supprimer"
+      },
+      on: {
+        click: function click($event) {
+          return _vm.removeLimiteInterne(index);
+        }
+      }
+    }, [_c("trash-icon", {
+      staticClass: "custom-class",
+      attrs: {
+        size: "21"
+      }
+    })], 1)])]);
+  }), _vm._v(" "), _c("tr", {
+    attrs: {
+      id: "grand2"
+    }
+  }, [_c("td", {
+    attrs: {
+      colspan: "7"
+    }
+  }, [_c("b", [_vm._v(_vm._s(_vm.autre_limite_ratio_test[0].grand_2[0].title))])])]), _vm._v(" "), _c("tr", {
+    attrs: {
+      id: "grandA"
+    }
+  }, [_c("td", {
+    attrs: {
+      colspan: "7"
+    }
+  }, [_c("b", [_vm._v(_vm._s(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[0].title))])])]), _vm._v(" "), _vm._l(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[0].content, function (element, index) {
+    return _c("tr", {
+      key: "a_" + index
+    }, [_c("td", {
+      staticStyle: {
+        "min-width": "178px"
+      }
+    }, [_c("span", {
+      staticStyle: {
+        "min-width": "220px"
+      }
+    }, [_c("b", [_vm._v(_vm._s(element.limites))])])]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_respecte,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_respecte", $$v);
+              },
+              expression: "\n                                                            element.niveau_respecte"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_observe,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_observe", $$v);
+              },
+              expression: "\n                                                            element.niveau_observe"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: function change($event) {
+                return _vm.handleInputSituation(element);
+              }
+            },
+            model: {
+              value: element.situation_apres_mise_en_place,
+              callback: function callback($$v) {
+                _vm.$set(element, "situation_apres_mise_en_place", $$v);
+              },
+              expression: "\n                                                            element.situation_apres_mise_en_place"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.statut,
+        expression: "element.statut"
+      }],
+      staticClass: "form-select single-select",
+      attrs: {
+        required: ""
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "statut", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Conforme"
+      }
+    }, [_vm._v(" Conforme ")]), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Non conforme"
+      }
+    }, [_vm._v(" Non conforme ")])])]), _vm._v(" "), _c("td", [_c("textarea", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.observation,
+        expression: "\n                                                        element.observation"
+      }],
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "210px"
+      },
+      attrs: {
+        id: "exampleFormControlTextarea1",
+        rows: "1"
+      },
+      domProps: {
+        value: element.observation
+      },
+      on: {
+        change: _vm.handleInput,
+        input: function input($event) {
+          if ($event.target.composing) return;
+          _vm.$set(element, "observation", $event.target.value);
+        }
+      }
+    })])]);
+  }), _vm._v(" "), _c("tr", {
+    attrs: {
+      id: "grandB"
+    }
+  }, [_c("td", {
+    attrs: {
+      colspan: "7"
+    }
+  }, [_c("b", [_vm._v(_vm._s(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[1].title))])])]), _vm._v(" "), _vm._l(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[1].content, function (element, index) {
+    return _c("tr", {
+      key: "a__" + index
+    }, [_c("td", {
+      staticStyle: {
+        "min-width": "178px"
+      }
+    }, [_c("span", {
+      staticStyle: {
+        "min-width": "220px"
+      }
+    }, [_c("b", [_vm._v(_vm._s(element.limites))])])]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_respecte,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_respecte", $$v);
+              },
+              expression: "\n                                                            element.niveau_respecte"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_observe,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_observe", $$v);
+              },
+              expression: "\n                                                            element.niveau_observe"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: function change($event) {
+                return _vm.handleInputSituation(element);
+              }
+            },
+            model: {
+              value: element.situation_apres_mise_en_place,
+              callback: function callback($$v) {
+                _vm.$set(element, "situation_apres_mise_en_place", $$v);
+              },
+              expression: "\n                                                            element.situation_apres_mise_en_place"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.statut,
+        expression: "element.statut"
+      }],
+      staticClass: "form-select single-select",
+      attrs: {
+        required: ""
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "statut", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Conforme"
+      }
+    }, [_vm._v(" Conforme ")]), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Non conforme"
+      }
+    }, [_vm._v(" Non conforme ")])])]), _vm._v(" "), _c("td", [_c("textarea", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.observation,
+        expression: "\n                                                        element.observation"
+      }],
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "210px"
+      },
+      attrs: {
+        id: "exampleFormControlTextarea1",
+        rows: "1"
+      },
+      domProps: {
+        value: element.observation
+      },
+      on: {
+        change: _vm.handleInput,
+        input: function input($event) {
+          if ($event.target.composing) return;
+          _vm.$set(element, "observation", $event.target.value);
+        }
+      }
+    })])]);
+  }), _vm._v(" "), _c("tr", {
+    attrs: {
+      id: "grandC"
+    }
+  }, [_c("td", {
+    attrs: {
+      colspan: "7"
+    }
+  }, [_c("b", [_vm._v(_vm._s(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[2].title))])])]), _vm._v(" "), _vm._l(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[2].content, function (element, ind) {
+    return _c("tr", {
+      key: "a___" + ind
+    }, [_c("td", {
+      staticStyle: {
+        "min-width": "178px"
+      }
+    }, [_c("span", {
+      staticStyle: {
+        "min-width": "220px"
+      }
+    }, [_c("b", [_vm._v(_vm._s(element.limites))])])]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_respecte,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_respecte", $$v);
+              },
+              expression: "\n                                                            element.niveau_respecte"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_observe,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_observe", $$v);
+              },
+              expression: "\n                                                            element.niveau_observe"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: function change($event) {
+                return _vm.handleInputSituation(element);
+              }
+            },
+            model: {
+              value: element.situation_apres_mise_en_place,
+              callback: function callback($$v) {
+                _vm.$set(element, "situation_apres_mise_en_place", $$v);
+              },
+              expression: "\n                                                            element.situation_apres_mise_en_place"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.statut,
+        expression: "element.statut"
+      }],
+      staticClass: "form-select single-select",
+      attrs: {
+        required: ""
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "statut", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Conforme"
+      }
+    }, [_vm._v(" Conforme ")]), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Non conforme"
+      }
+    }, [_vm._v(" Non conforme ")])])]), _vm._v(" "), _c("td", [_c("textarea", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.observation,
+        expression: "\n                                                        element.observation"
+      }],
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "210px"
+      },
+      attrs: {
+        id: "exampleFormControlTextarea1",
+        rows: "1"
+      },
+      domProps: {
+        value: element.observation
+      },
+      on: {
+        change: _vm.handleInput,
+        input: function input($event) {
+          if ($event.target.composing) return;
+          _vm.$set(element, "observation", $event.target.value);
+        }
+      }
+    })])]);
+  }), _vm._v(" "), _c("tr", {
+    attrs: {
+      id: "grandD"
+    }
+  }, [_c("td", {
+    attrs: {
+      colspan: "7"
+    }
+  }, [_c("b", [_vm._v(_vm._s(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[3].title))])])]), _vm._v(" "), _vm._l(_vm.autre_limite_ratio_test[0].grand_2[0].s_title[3].content, function (element, ind) {
+    return _c("tr", {
+      key: "a____" + ind
+    }, [_c("td", {
+      staticStyle: {
+        "min-width": "178px"
+      }
+    }, [_c("span", {
+      staticStyle: {
+        "min-width": "220px"
+      }
+    }, [_c("b", [_vm._v(_vm._s(element.limites))])])]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_respecte,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_respecte", $$v);
+              },
+              expression: "\n                                                            element.niveau_respecte"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            staticStyle: {
+              background: "#00ffff21",
+              color: "#000"
+            },
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: _vm.handleInput
+            },
+            model: {
+              value: element.niveau_observe,
+              callback: function callback($$v) {
+                _vm.$set(element, "niveau_observe", $$v);
+              },
+              expression: "\n                                                            element.niveau_observe"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("div", [_c("input-group", {
+      staticClass: "btn-group-inputPercent",
+      scopedSlots: _vm._u([{
+        key: "input",
+        fn: function fn() {
+          return [_c("currency-input", {
+            staticClass: "form-control text-end btn-group-inputPercent",
+            attrs: {
+              "default-typing": false,
+              "float": ""
+            },
+            on: {
+              change: function change($event) {
+                return _vm.handleInputSituation(element);
+              }
+            },
+            model: {
+              value: element.situation_apres_mise_en_place,
+              callback: function callback($$v) {
+                _vm.$set(element, "situation_apres_mise_en_place", $$v);
+              },
+              expression: "\n                                                            element.situation_apres_mise_en_place"
+            }
+          })];
+        },
+        proxy: true
+      }, {
+        key: "right",
+        fn: function fn() {
+          return [_vm._v("%")];
+        },
+        proxy: true
+      }], null, true)
+    })], 1)]), _vm._v(" "), _c("td", [_c("select", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.statut,
+        expression: "element.statut"
+      }],
+      staticClass: "form-select single-select",
+      attrs: {
+        required: ""
+      },
+      on: {
+        change: [function ($event) {
+          var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
+            return o.selected;
+          }).map(function (o) {
+            var val = "_value" in o ? o._value : o.value;
+            return val;
+          });
+          _vm.$set(element, "statut", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
+        }, _vm.handleInput]
+      }
+    }, [_c("option", {
+      attrs: {
+        value: ""
+      }
+    }), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Conforme"
+      }
+    }, [_vm._v(" Conforme ")]), _vm._v(" "), _c("option", {
+      attrs: {
+        value: "Non conforme"
+      }
+    }, [_vm._v(" Non conforme ")])])]), _vm._v(" "), _c("td", [_c("textarea", {
+      directives: [{
+        name: "model",
+        rawName: "v-model",
+        value: element.observation,
+        expression: "\n                                                        element.observation"
+      }],
+      staticClass: "form-control",
+      staticStyle: {
+        "min-width": "210px"
+      },
+      attrs: {
+        id: "exampleFormControlTextarea1",
+        rows: "1"
+      },
+      domProps: {
+        value: element.observation
+      },
+      on: {
+        change: _vm.handleInput,
+        input: function input($event) {
+          if ($event.target.composing) return;
+          _vm.$set(element, "observation", $event.target.value);
+        }
+      }
+    })])]);
+  })], 2)])])])]) : _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "relook-header",
+    on: {
+      click: function click($event) {
+        _vm.seen3 = !_vm.seen3;
+      }
+    }
+  }, [_c("h6", {
+    attrs: {
+      id: "autres-limites-et-ratios"
+    }
+  }, [_vm._v("\n                                Autres limites et ratios\n                                "), _c("chevron-down-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      "float": "right",
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    }
+  })], 1)])]), _vm._v(" "), _c("br"), _vm._v(" "), _c("div", {
+    staticClass: "card-body"
+  }, [_c("div", {
+    staticClass: "col-md-12 mb-4"
+  }, [_vm._m(6), _vm._v(" "), _c("vue-editor", {
+    attrs: {
+      maximum: 1000,
+      id: "type_res_dispo"
+    },
+    on: {
+      "update-value": function updateValue($event) {
+        _vm.formDataToBeWatched[$event[0]] = $event[1];
+      }
+    },
+    model: {
+      value: _vm.formDataToBeWatched.comment_autre_limite_ratio,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "comment_autre_limite_ratio", $$v);
+      },
+      expression: "formDataToBeWatched.comment_autre_limite_ratio"
+    }
+  })], 1)]), _vm._v(" "), _c("br"), _vm._v(" "), _c("button", {
+    staticClass: "btn shadow-md text-white position-absolute",
+    staticStyle: {
+      cursor: "pointer",
+      right: "16px",
+      bottom: "10px",
+      background: "#2c3e50",
+      "max-width": "max-content"
+    },
+    attrs: {
+      type: "button",
+      name: "button"
+    },
+    on: {
+      click: function click($event) {
+        return _vm.retract();
+      }
+    }
+  }, [_vm._v("\n                        Fermer le tableau\n                    ")])])])]) : _c("div", {
+    staticClass: "card card-width-height"
+  }, [_c("br"), _vm._v(" "), _c("div", {
+    staticClass: "card-header hdc pb-0 pt-2"
+  }, [_c("h6", {
+    staticClass: "head",
+    attrs: {
+      id: "f5-head"
+    }
+  }, [_c("div", {
+    staticClass: "row"
+  }, [_c("div", {
+    staticClass: "col"
+  }, [_vm._v("\n                            " + _vm._s(_vm.tb_display_name) + " : Respect des limites\n                        ")]), _vm._v(" "), _c("div", {
+    staticClass: "col-auto"
+  }, [((_vm$formDataToBeWatch2 = _vm.formDataToBeWatched.notes) === null || _vm$formDataToBeWatch2 === void 0 ? void 0 : _vm$formDataToBeWatch2.length) > 0 ? _c("div", {
+    staticStyle: {
+      display: "inline-block",
+      position: "relative"
+    }
+  }, [_c("span", {
+    attrs: {
+      type: "button"
+    },
+    on: {
+      click: function click($event) {
+        return _vm.openNotesModal(true);
+      }
+    }
+  }, [_c("i", {
+    staticClass: "icofont icofont-comment text-white px-2",
+    staticStyle: {
+      "font-size": "12px"
+    },
+    attrs: {
+      role: "button"
+    }
+  }), _vm._v(" "), _c("span", {
+    staticClass: "badge-sm"
+  }, [_c("span", [_vm._v("\n                                            " + _vm._s(_vm.formDataToBeWatched.notes.length) + "\n                                        ")])])])]) : _vm._e(), _vm._v(" "), _c("chevron-down-icon", {
+    staticClass: "custom-class",
+    staticStyle: {
+      cursor: "pointer"
+    },
+    attrs: {
+      size: "21"
+    },
+    on: {
+      click: function click($event) {
+        return _vm.retract();
+      }
+    }
+  })], 1)])])])])], 1), _vm._v(" "), _c("modal", {
+    attrs: {
+      name: "instruction211a",
+      width: 1000,
+      resizable: "",
+      height: 200
+    }
+  }, [_c("div", {
+    staticClass: "imageM22"
+  })]), _vm._v(" "), _c("note-modal", {
+    attrs: {
+      name: _vm.tb_name,
+      listingNote: _vm.listingNote,
+      notes: _vm.formDataToBeWatched.notes
+    },
+    on: {
+      close: function close($event) {
+        return _vm.$modal.hide(_vm.tb_name);
+      },
+      addNote: function addNote($event) {
+        return _vm.formDataToBeWatched.notes.unshift($event);
+      }
+    },
+    model: {
+      value: _vm.formDataToBeWatched.notes,
+      callback: function callback($$v) {
+        _vm.$set(_vm.formDataToBeWatched, "notes", $$v);
+      },
+      expression: "formDataToBeWatched.notes"
+    }
+  })], 1);
+};
+var staticRenderFns = [function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("thead", [_c("tr", [_c("td", {
+    staticClass: "th fw-bold text-nowrap"
+  }, [_c("label", [_vm._v("Client du groupe")])]), _vm._v(" "), _c("td", {
+    staticClass: "th fw-bold text-center text-nowrap min-w-100-px"
+  }, [_c("label", [_vm._v("Exposition Brute simulée")])]), _vm._v(" "), _c("td", {
+    staticClass: "th fw-bold text-center text-nowrap min-w-100-px"
+  }, [_c("label", [_vm._v("Sûretés financières")])]), _vm._v(" "), _c("td", {
+    staticClass: "th fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("Garanties Hypothécaires")])]), _vm._v(" "), _c("td", {
+    staticClass: "th fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("Autres Garanties éligibles")])]), _vm._v(" "), _c("td", {
+    staticClass: "th fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("APR")])]), _vm._v(" "), _c("td")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("td", {
+    staticClass: "th fw-bold text-nowrap"
+  }, [_c("label", [_vm._v("GROUPE")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("label", [_c("b", [_vm._v("Commentaire")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("thead", [_c("tr", [_c("td", {
+    staticClass: "th fw-bold text-nowrap"
+  }, [_c("label"), _vm._v("Indicateurs après mise en place")]), _vm._v(" "), _c("td", {
+    staticClass: "th fw-bold text-center text-nowrap min-w-100-px"
+  }, [_c("label", [_vm._v("\n                                                Valeur simulée ")])]), _vm._v(" "), _c("td")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("label", [_c("b", [_vm._v("Commentaire")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("thead", {
+    staticClass: "position-sticky top-0 bg-light",
+    staticStyle: {
+      "z-index": "1"
+    }
+  }, [_c("tr", {
+    staticStyle: {
+      "background-color": "#f4f3f3"
+    }
+  }, [_c("th", {
+    staticClass: "fw-bold text-nowrap",
+    staticStyle: {
+      width: "250px"
+    }
+  }, [_vm._v("Limites")]), _vm._v(" "), _c("th", {
+    staticClass: "fw-bold text-center text-nowrap"
+  }, [_vm._v("Niveau à respecter (en %)")]), _vm._v(" "), _c("th", {
+    staticClass: "fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("Niveau observé (dernière situation disponible en %)")])]), _vm._v(" "), _c("th", {
+    staticClass: "fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("Situation après mise en place du financement (en %)")])]), _vm._v(" "), _c("th", {
+    staticClass: "fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("Statut")])]), _vm._v(" "), _c("th", {
+    staticClass: "fw-bold text-center text-nowrap"
+  }, [_c("label", [_vm._v("Observation")])]), _vm._v(" "), _c("td")])]);
+}, function () {
+  var _vm = this,
+    _c = _vm._self._c;
+  return _c("label", [_c("b", [_vm._v("Commentaire")])]);
+}];
+render._withStripped = true;
+
+
+/***/ }),
+
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n*[data-v-d1a4c132] {\r\n    font-family: \"Google sans\";\n}\n#title th[data-v-d1a4c132]:first-child,\r\n#title td[data-v-d1a4c132]:first-child,\r\n#grand1 td[data-v-d1a4c132]:first-child,\r\n#grand2 td[data-v-d1a4c132]:first-child,\r\n#grandA td[data-v-d1a4c132]:first-child,\r\n#grandB td[data-v-d1a4c132]:first-child,\r\n#grandC td[data-v-d1a4c132]:first-child,\r\n#grandD td[data-v-d1a4c132]:first-child {\r\n    background-color: #f4f3f3;\r\n    position: sticky;\r\n    left: 0;\r\n    z-index:0;\n}\n.tdDisplay[data-v-d1a4c132]{\r\n    display:none;\n}\r\n/* #title td:first-child {\r\n    background-color: #f4f3f3;\r\n    position: sticky;\r\n    left: 0;\r\n    z-index:0\r\n} */\r\n\r\n/* input{\r\n    width: 200px;\r\n} */\nlabel[data-v-d1a4c132] {\r\n    height: 10px;\r\n    font-size: 13px;\n}\ntd input[data-v-d1a4c132],\r\nselect[data-v-d1a4c132] {\r\n    /* height: 35px; */\r\n    border-color: #34495e;\r\n    color: #57606f;\r\n    font-size: 13px;\r\n    font-weight: bold;\n}\nselect[data-v-d1a4c132] {\r\n    width: 150px;\n}\n.th[data-v-d1a4c132] {\r\n    padding: 4px;\r\n    padding-bottom: 0px;\n}\n.card-width-height[data-v-d1a4c132] {\r\n    width: 100%;\r\n    height: 100%;\n}\n.head[data-v-d1a4c132] {\r\n    color: #f1f2f6;\r\n    font-size: 22px;\n}\n.hdc[data-v-d1a4c132] {\r\n    background-color: #57606f;\n}\n.relook-header[data-v-d1a4c132] {\r\n    color: #000;\r\n    background-color: #f4f3f3;\r\n    padding: 5px;\r\n    border-bottom: 1px solid #b6b8bb;\n}\n.btn-group-inputPercent[data-v-d1a4c132], .btn-group-inputPercent>.btn[data-v-d1a4c132] {\r\n   position: initial !important;\n}\r\n\r\n/* .inputPercent {\r\n    position: initial;\r\n} */\n.badge-sm[data-v-d1a4c132] {\r\n    display: inline-block;\r\n    width: 15px;\r\n    height: 15px;\r\n    background: rgba(255, 0, 0, 0.882);\r\n    color: white;\r\n    font-size: 12px;\r\n    font-weight: 500;\r\n    border-radius: 100%;\r\n    position: absolute;\r\n    top: -20%;\r\n    left: 55%;\r\n    text-align: center;\n}\n.imageM22[data-v-d1a4c132] {\r\n    background: url(\"/images/capture_cofina/exemple_source_revenus.png\") no-repeat;\r\n    background-position: center;\r\n    background-size: contain;\r\n    width: 1000px;\r\n    height: 200px;\n}\ntd[data-v-d1a4c132],\r\np[data-v-d1a4c132] {\r\n    font-size: 13px;\n}\n.relook-header[data-v-d1a4c132] {\r\n    color: #000;\r\n    background-color: #f4f3f3;\r\n    padding: 5px;\r\n    border-bottom: 1px solid #b6b8bb;\n}\n.width-100[data-v-d1a4c132] {\r\n    width: 90%;\n}\n.personne input[data-v-d1a4c132] {\r\n    width: 135px;\n}\n.equipe[data-v-d1a4c132]{\r\n    background: #00ffff21;\r\n    color: #000;\n}\n.min-w-100-px[data-v-d1a4c132] {\r\n    min-width: 100px\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_10_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_10_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_style_index_0_id_d1a4c132_lang_css_scoped_true__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!../../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_10_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_10_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_style_index_0_id_d1a4c132_lang_css_scoped_true__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_10_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_10_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_style_index_0_id_d1a4c132_lang_css_scoped_true__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _DGR_FAR5_vue_vue_type_template_id_d1a4c132_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true */ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true");
+/* harmony import */ var _DGR_FAR5_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DGR-FAR5.vue?vue&type=script&lang=js */ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=script&lang=js");
+/* harmony import */ var _DGR_FAR5_vue_vue_type_style_index_0_id_d1a4c132_lang_css_scoped_true__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true */ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _DGR_FAR5_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _DGR_FAR5_vue_vue_type_template_id_d1a4c132_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _DGR_FAR5_vue_vue_type_template_id_d1a4c132_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "d1a4c132",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=script&lang=js":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DGR-FAR5.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true":
+/*!*************************************************************************************************************************************!*\
+  !*** ./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true ***!
+  \*************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_10_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_10_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_style_index_0_id_d1a4c132_lang_css_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/style-loader/dist/cjs.js!../../../../../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!../../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!../../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-10.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-10.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=style&index=0&id=d1a4c132&lang=css&scoped=true");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true":
+/*!***********************************************************************************************************************!*\
+  !*** ./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true ***!
+  \***********************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_template_id_d1a4c132_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_template_id_d1a4c132_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_DGR_FAR5_vue_vue_type_template_id_d1a4c132_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/contreanalyse/nsia/filiale/dgr/DGR-FAR5.vue?vue&type=template&id=d1a4c132&scoped=true");
+
+
+/***/ })
+
+}]);

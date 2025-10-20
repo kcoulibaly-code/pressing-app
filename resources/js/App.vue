@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h1>Bienvenue sur mon app Laravel + Vue 3 🚀</h1>
-    <nav>
+    <!-- <nav>
       <router-link to="/">Accueil</router-link> |
       <router-link to="/about">À propos</router-link>
-    </nav>
+    </nav> -->
     <router-view />
   </div>
 </template>

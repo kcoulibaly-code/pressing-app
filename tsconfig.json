@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["resources/js/*"],
+      "@components/*": ["resources/js/components/*"],
+      "@services/*": ["resources/js/services/*"],
+      "@mixins/*": ["resources/js/mixins/*"],
+      "@extres/*": ["resources/js/extres/*"],
+      "@helpers/*": ["resources/js/helpers/*"]
+    }
+  },
+  "include": ["resources/js/**/*", "resources/**/*.vue"],
+  "exclude": ["node_modules"]
+}
