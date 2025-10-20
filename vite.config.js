@@ -15,8 +15,12 @@ export default defineConfig({
         tailwindcss()
     ],
     resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./resources/js', import.meta.url)),
+      alias: {
+        '@': fileURLToPath(new URL('./resources/js', import.meta.url)),
+      },
     },
-  },
+    build: {
+        outDir: 'public/build', // dossier de sortie correct
+        emptyOutDir: true, // supprime les anciens fichiers à chaque build
+    },
 });
