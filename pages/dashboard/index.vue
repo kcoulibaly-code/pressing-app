@@ -1,18 +1,16 @@
 <script lang="ts">
 export const iframeHeight = "800px"
-export const description
-  = "A simple sidebar with navigation grouped by section."
+export const description = "A left and right sidebar."
 </script>
 
 <script setup lang="ts">
-import AppSidebar from '@/components/AppSidebar.vue'
+import SidebarLeft from '@/components/SidebarLeft.vue'
+import SidebarRight from '@/components/SidebarRight.vue'
 import {
   Breadcrumb,
   BreadcrumbItem,
-  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator,
 } from '@/components/ui/breadcrumb'
 import { Separator } from '@/components/ui/separator'
 import {
@@ -24,36 +22,31 @@ import {
 
 <template>
   <SidebarProvider>
-    <AppSidebar />
+    <SidebarLeft />
     <SidebarInset>
-      <header class="flex h-16 shrink-0 items-center gap-2 border-b px-4">
-        <SidebarTrigger class="-ml-1" />
-        <Separator
-          orientation="vertical"
-          class="mr-2 data-[orientation=vertical]:h-4"
-        />
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem class="hidden md:block">
-              <BreadcrumbLink href="#">
-                Building Your Application
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator class="hidden md:block" />
-            <BreadcrumbItem>
-              <BreadcrumbPage>Data Fetching</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
+      <header class="sticky top-0 flex h-14 shrink-0 items-center gap-2 bg-background">
+        <div class="flex flex-1 items-center gap-2 px-3">
+          <SidebarTrigger />
+          <Separator
+            orientation="vertical"
+            class="mr-2 data-[orientation=vertical]:h-4"
+          />
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbPage class="line-clamp-1">
+                  Project Management & Task Tracking
+                </BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
       </header>
       <div class="flex flex-1 flex-col gap-4 p-4">
-        <div class="grid auto-rows-min gap-4 md:grid-cols-3">
-          <div class="bg-muted/50 aspect-video rounded-xl" />
-          <div class="bg-muted/50 aspect-video rounded-xl" />
-          <div class="bg-muted/50 aspect-video rounded-xl" />
-        </div>
-        <div class="bg-muted/50 min-h-[100vh] flex-1 rounded-xl md:min-h-min" />
+        <div class="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
+        <div class="mx-auto h-[100vh] w-full max-w-3xl rounded-xl bg-muted/50" />
       </div>
     </SidebarInset>
+    <SidebarRight />
   </SidebarProvider>
 </template>

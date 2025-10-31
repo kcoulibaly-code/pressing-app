@@ -8,6 +8,11 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+/* @import url('https://rsms.me/inter/inter.css');
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter', sans-serif; }
+} */
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

@@ -1,19 +1,15 @@
 <template>
-  <div>
-    <!-- <nav>
-      <router-link to="/">Accueil</router-link> |
-      <router-link to="/about">À propos</router-link>
-    </nav> -->
+  <component :is="layout">
     <router-view />
-  </div>
+  </component>
 </template>
 
 <script setup>
-// Rien pour le moment
-</script>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import AuthLayout from './components/layout/AuthLayout.vue'
+import AppLayout from './components/layout/AppLayout.vue'
 
-<style>
-nav {
-  margin-bottom: 20px;
-}
-</style>
+const route = useRoute()
+const layout = computed(() => route.meta.layout === 'auth' ? AuthLayout : AppLayout)
+</script>

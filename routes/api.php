@@ -27,3 +27,4 @@ Route::prefix('clients')->group(function () {
     Route::put('/{id}', [ClientController::class, 'update']);
     Route::delete('/{id}', [ClientController::class, 'destroy']);
 });
+Route::post('/login', [AuthController::class, 'login']);

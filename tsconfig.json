@@ -13,6 +13,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["resources/js/*"],
+      "@views/*": ["resources/js/views/*"],
       "@components/*": ["resources/js/components/*"],
       "@services/*": ["resources/js/services/*"],
       "@mixins/*": ["resources/js/mixins/*"],
