@@ -17,6 +17,12 @@ export default defineConfig({
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./resources/js', import.meta.url)),
+        '@views': fileURLToPath(new URL('./resources/js/views', import.meta.url)),
+        '@components': fileURLToPath(new URL('./resources/js/components', import.meta.url)),
+        '@services': fileURLToPath(new URL('./resources/js/services', import.meta.url)),
+        '@mixins': fileURLToPath(new URL('./resources/js/mixins', import.meta.url)),
+        '@extres': fileURLToPath(new URL('./resources/js/extres', import.meta.url)),
+        '@helpers': fileURLToPath(new URL('./resources/js/helpers', import.meta.url)),
       },
     },
     build: {

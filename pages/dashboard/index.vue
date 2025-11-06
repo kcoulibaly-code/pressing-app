@@ -1,52 +1,22 @@
 <script lang="ts">
-export const iframeHeight = "800px"
-export const description = "A left and right sidebar."
+export const description = "A login page with a muted background color."
 </script>
 
 <script setup lang="ts">
-import SidebarLeft from '@/components/SidebarLeft.vue'
-import SidebarRight from '@/components/SidebarRight.vue'
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbList,
-  BreadcrumbPage,
-} from '@/components/ui/breadcrumb'
-import { Separator } from '@/components/ui/separator'
-import {
-  SidebarInset,
-  SidebarProvider,
-  SidebarTrigger,
-} from '@/components/ui/sidebar'
+import { GalleryVerticalEnd } from "lucide-vue-next"
+import LoginForm from '@/components/LoginForm.vue'
 </script>
 
 <template>
-  <SidebarProvider>
-    <SidebarLeft />
-    <SidebarInset>
-      <header class="sticky top-0 flex h-14 shrink-0 items-center gap-2 bg-background">
-        <div class="flex flex-1 items-center gap-2 px-3">
-          <SidebarTrigger />
-          <Separator
-            orientation="vertical"
-            class="mr-2 data-[orientation=vertical]:h-4"
-          />
-          <Breadcrumb>
-            <BreadcrumbList>
-              <BreadcrumbItem>
-                <BreadcrumbPage class="line-clamp-1">
-                  Project Management & Task Tracking
-                </BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
+  <div class="bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
+    <div class="flex w-full max-w-sm flex-col gap-6">
+      <a href="#" class="flex items-center gap-2 self-center font-medium">
+        <div class="bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md">
+          <GalleryVerticalEnd class="size-4" />
         </div>
-      </header>
-      <div class="flex flex-1 flex-col gap-4 p-4">
-        <div class="mx-auto h-24 w-full max-w-3xl rounded-xl bg-muted/50" />
-        <div class="mx-auto h-[100vh] w-full max-w-3xl rounded-xl bg-muted/50" />
-      </div>
-    </SidebarInset>
-    <SidebarRight />
-  </SidebarProvider>
+        Acme Inc.
+      </a>
+      <LoginForm />
+    </div>
+  </div>
 </template>
